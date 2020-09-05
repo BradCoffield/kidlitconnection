@@ -1,5 +1,5 @@
 ///
-/// Forty by Pixelarity
+/// Story by Pixelarity
 /// pixelarity.com | hello@pixelarity.com
 /// License: pixelarity.com/license
 ///
@@ -13,16 +13,10 @@
 
 		li {
 			display: inline-block;
-			padding: 0 1em 0 0;
+			padding: 0 0.75rem 0 0;
 
 			&:last-child {
 				padding-right: 0;
-			}
-		}
-
-		@include breakpoint('<=small') {
-			li {
-				padding: 0 0.75em 0 0;
 			}
 		}
 	}
