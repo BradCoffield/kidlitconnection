@@ -26,7 +26,8 @@ h2 {
   font-size: 2.75rem;
 }
 
-.content{font-family: 'Kalam', cursive; }
+.kalam{font-family: 'Kalam', cursive; }
+p, label {font-family: 'Montserrat', sans-serif;}
 
 
 /* #7867be */
