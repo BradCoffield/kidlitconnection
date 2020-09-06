@@ -10,9 +10,27 @@ font-family: 'Indie Flower', cursive;
 
 font-family: 'Kalam', cursive; */
 
-.logo, h1, h2, h3, h4, h5, h6{font-family: 'Gochi Hand', cursive; }
-.banner.style2 .content, .content{background-color: #e69591;}
-/* .content{font-family: 'Kalam', cursive; } */
+.logo,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Gochi Hand", cursive;
+}
+.banner.style2 .content {
+  /* background-color: #eb9d99; */
+}
+h2 {
+  font-size: 2.75rem;
+}
+
+.content{font-family: 'Kalam', cursive; }
+
+
+/* #7867be */
+/* purple from our pics */
 
 /* #2f2041  */
 /* dark purple1 */
