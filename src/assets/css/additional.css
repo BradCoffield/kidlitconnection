@@ -1,0 +1,61 @@
+.logo,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Gochi Hand", cursive;
+}
+.banner.style2 .content {
+  /* background-color: #eb9d99; */
+}
+h2 {
+  font-size: 2.75rem;
+}
+h3 {font-size:1.45rem;}
+h4 {font-size:1.15rem;}
+
+.kalam{font-family: 'Kalam', cursive; }
+.content{font-family: 'Montserrat', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+header p {font-size:1rem}
+
+.rec-resource-ul {margin-left:0px;padding-left: 5px;}
+.rec-resource-title {list-style-type: none;font-weight: bold;}
+.rec-resource-desc {list-style-type: none;margin:5px 0 0 15px;}
+#footer .copyright {color:#888}
+
+/* .funderline::after {content: '';
+  display: block;
+  background-color: #cccccc;
+  height: 1px;
+  margin: .5rem 0 1.75rem 0;
+  width: 2.5rem;} */
+
+ .tiling {
+   background-repeat: repeat!important;
+   background-size: auto!important;
+ }
+ .book-review-unit {margin-bottom: 4.5rem;}
+
+/* #7867be */
+/* purple from our pics */
+
+/* #2f2041  */
+/* dark purple1 */
+
+/* #2b2040 */
+/* dark purple2 */
+
+/* #cda5b0 */
+/* muted purple */
+
+/* #e36a7b */
+/* pinky1 */
+
+/* #e69591 */
+/* pinky2 */
+
+/* #87a1a2 */
+/* tealy1 */

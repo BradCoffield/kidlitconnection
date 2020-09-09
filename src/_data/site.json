@@ -1,0 +1,11 @@
+{
+    "title": "KidLit Connection",
+    "url": "https://www.kidlitconnection.com",
+    "baseurl": "",
+    "repo": "https://github.com/BradCoffield/kidlitconnection",
+    "comments": false,
+    "author": {
+      "name": "Sue Lawrence"
+    },
+    "og_locale": "en_US"
+  }
