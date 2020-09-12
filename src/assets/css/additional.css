@@ -26,18 +26,24 @@ header p {font-size:1rem}
 .rec-resource-desc {list-style-type: none;margin:5px 0 0 15px;}
 #footer .copyright {color:#888}
 
-/* .funderline::after {content: '';
+.funderline::after {content: '';
   display: block;
   background-color: #cccccc;
   height: 1px;
   margin: .5rem 0 1.75rem 0;
-  width: 2.5rem;} */
+  width: 2.5rem;}
 
  .tiling {
    background-repeat: repeat!important;
-   background-size: auto!important;
+   /* background-size: auto!important; */
+   background-size: initial!important;
  }
  .book-review-unit {margin-bottom: 4.5rem;}
+
+ .spacioush3 {
+   margin: 4.5rem 0 2rem;
+ }
+ .rec-resource-thumb {max-height: 155px;float: left;margin: 15px 15px 15px 0;}
 
 /* #7867be */
 /* purple from our pics */
