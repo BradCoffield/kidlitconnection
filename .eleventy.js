@@ -17,7 +17,8 @@ module.exports = function (eleventyConfig) {
       "eot",
       "ttf",
       "woff",
-      "woff2"
+      "woff2",
+      "njk"
     ]);
   
     return {
@@ -27,7 +28,7 @@ module.exports = function (eleventyConfig) {
       },
       passthroughFileCopy: true,
       includes: "_includes",
-      layouts: "_layouts",
+       
     };
   };
   
