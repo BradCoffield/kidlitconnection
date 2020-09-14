@@ -341,7 +341,7 @@
 									<h2>Contact</h2>
 								</header>
 								<p>I'd love to hear from you! Find me at <a href="https://www.instagram.com/kidlitconnection/">@kidlitconnection</a> or <a href="https://www.instagram.com/scbwimontana/">@scbwimontana</a> on Instagram or please reach out through the form below. Thanks!</p> <br><br>
-								<form name="contact" method="POST" data-netlify="true" >
+								<!-- <form name="contact" method="POST" data-netlify="true" >
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
@@ -359,7 +359,22 @@
 									<ul class="actions">
 										<li><a href="" class="button submit">Send Message</a></li>
 									</ul>
-								</form>
+								</form> -->
+								<form name="contact" method="POST" data-netlify="true">
+									<p>
+									  <label>Name: <input type="text" name="name" /></label>   
+									</p>
+									<p>
+									  <label>Email: <input type="email" name="email" /></label>
+									</p>
+ 									<p>
+									  <label>Message: <textarea name="message"></textarea></label>
+									</p>
+									<p>
+									  <button type="submit">Send</button>
+									</p>
+								  </form>
+								  
 							</div>
 						</div>
 					</article>
