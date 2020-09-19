@@ -6,6 +6,7 @@ h4,
 h5,
 h6 {
   font-family: "Gochi Hand", cursive;
+  color: #111!important;
 }
 .banner.style2 .content {
   /* background-color: #eb9d99; */
@@ -25,7 +26,7 @@ header p {font-size:1rem}
 .rec-resource-ul {margin-left:0px;padding-left: 5px;}
 .rec-resource-title {list-style-type: none;font-weight: bold;}
 .rec-resource-desc {list-style-type: none;margin:5px 0 0 15px;}
-#footer .copyright {color:#888}
+#footer .copyright {color:#777}
 
 .funderline::after {content: '';
   display: block;
@@ -39,17 +40,18 @@ header p {font-size:1rem}
    /* background-size: auto!important; */
    background-size: initial!important;
  }
- .book-review-unit {margin-bottom: 4.5rem;}
+ .book-recc-unit {margin-bottom: 4.5rem;}
 
  .spacioush3 {
    margin: 4.5rem 0 2rem;
  }
- .rec-resource-thumb {max-height: 155px;float: left;margin: 15px 15px 15px 0;}
+ .rec-resource-thumb {max-height: 175px;float: left;margin: 15px 15px 15px 0;}
 
  .smaller-h2 {font-size:16px;}
  .wide-panel .content {width:90%!important}
  .review-content img, .book-cover-full{max-width: 50%;}
  .align-left{text-align: left;}
+ .mw300{max-width: 300px;}
  
 /* #7867be */
 /* purple from our pics */

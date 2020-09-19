@@ -63,11 +63,11 @@
 									books one thing shows through: they’re all rooted in the truth in some way.</p>
 									<p>
 										Montana’s Memory Day is a realistic fiction picture book for ages 5 and up inspired by a
-										compilation of the life stories of several real people.
+compilation of the life stories of several real people.
 									</p>
 									<p>
 										My WWII-themed work-in-progress is nonfiction for ages 8-12. It’s about two women who
-										worked behind-the-scenes doing top secret work for America’s government during wartime.
+worked behind-the-scenes doing top secret work for America’s government during wartime.
 									</p>
 								<h3 class="funderline"><em>Montana's Memory Day</em></h3>
 								<p>My debut picture book, Montana’s Memory Day, is a nature-themed foster-to-adoption story set
@@ -157,37 +157,34 @@
 					<li class="rec-resource-title">SCBWI (Society of Children’s Book Writers and Illustrators)</li>
 					<li class="rec-resource-desc"><p>
 						The SCBWI (Society of Children’s Book Writers and Illustrators) is one international
-							professional membership every aspiring kidlit writer and illustrator should invest in. I’ve been a
-							member since 2016 and the benefits are more than worth the cost of an annual membership
+							professional membership <strong>every</strong> aspiring kidlit writer and illustrator should invest in. I’ve been a
+							member since 2016 and the benefits are <strong>more</strong> than worth the cost of an annual membership
 							($95/year first year, then $80/year renewal annually after that. College/graduate student rate:
-							$65/year to join, then $55/year renewal afterwards.)
+							$65/year to join, then $55/year renewal.)
 					</p>
 						<p>
 							Find out about the professional development opportunities, book marketing and promotion, print
 							and online resources, awards and grant opportunities, newsletters, and more on SCBWI’s
-							Membership Benefits page: <a href="https://www.scbwi.org/membership-benefits-new/">https://www.scbwi.org/membership-benefits-new/</a>
-							When you join SCBWI, you automatically become a member of your region’s local
-							chapter—which in our case, is Montana. Find out about our regional events at
-							Montana.scbwi.org.
-						</p></li>
+							Membership Benefits page: <a href="https://www.scbwi.org/membership-benefits-new/">https://www.scbwi.org/membership-benefits-new/</a></p>
+							<p>
+								When you join SCBWI, you automatically become a member of your region’s local
+								chapter—which in our case, is Montana. Find out about our regional events at
+								<a href="https://montana.scbwi.org/.">https://montana.scbwi.org/.</a>
+							</p>
+						</li>
 				</ul>
-				<ul class="rec-resource-ul">
-					<li class="rec-resource-title">Resource Title</li>
-					<li class="rec-resource-desc">Some details of why it's recommended. Labore minim commodo veniam sint ad esse ullamco.</li>
-				</ul>
-				<ul class="rec-resource-ul">
-					<li class="rec-resource-title">Resource Title</li>
-					<li class="rec-resource-desc">Some details of why it's recommended. Labore minim commodo veniam sint ad esse ullamco.</li>
-				</ul>
-				<ul class="rec-resource-ul">
-					<li class="rec-resource-title">Resource Title</li>
-					<li class="rec-resource-desc">Some details of why it's recommended. Labore minim commodo veniam sint ad esse ullamco.</li>
-				</ul>
+				 
 				<h3 class="funderline spacioush3">Conferences &amp; Webinars for Writers &amp; Illustrators</h3>
 				<ul class="rec-resource-ul">
 					<li class="rec-resource-title">SCBWI &amp; Smithsonian Nonfiction Workshop</li>
-					<li class="rec-resource-desc">Scheduled for November 6-8, 2020.
-						Registration and workshop details are expected in the coming weeks!</li>
+					<li class="rec-resource-desc">The SCBWI &amp; Smithsonian Nonfiction Workshop is scheduled for Friday and Saturday,
+						November 6-8, 2020. There will be keynote speakers, book editor panels, author panels, special
+						topics and more of interest to kidlit nonfiction writers and illustrators. Registration, faculty bios,
+						and workshop schedule for this virtual workshop are at <a href="https://www.scbwi.org/events/nonfiction-
+						workshop/">
+							https://www.scbwi.org/events/nonfiction-
+							workshop/
+						</a>.</li>
 				</ul>
 				<!-- <ul class="rec-resource-ul">
 					<li class="rec-resource-title">Resource Title</li>
@@ -196,12 +193,11 @@
 
 				 <h3 class="funderline spacioush3">Other Helpful Info</h3>
 				 <ul class="rec-resource-ul">
-					<li class="rec-resource-title">Montanakids.com</li>
+					<li class="rec-resource-title">Montana Kids</li>
 					
-					<li class="rec-resource-desc"><img src="images/Montanakids.com.jpg" alt="" class="rec-resource-thumb"><a href="www.montanakids.com">This website</a> provides a slew of info about Montana. Included are
-						the state’s history and statistics, main agricultural and business products, plants and animals,
-						things to see and do, games and activities, and they tell a few Montana-themed stories along the
-						way.</li>
+					<li class="rec-resource-desc"><img src="images/Montanakids.com.jpg" alt="" class="rec-resource-thumb"><a href="www.montanakids.com">Montanakids.com</a> provides a slew of info about Montana. They discuss our state’s history
+						and statistics, main agricultural and business products, plants and animals, things to see and do,
+						games and activities, and tell a few Montana-themed stories along the way.</li>
 				</ul>
 				 
 			</div>
@@ -220,12 +216,12 @@
 			<div class="inner">
 				<header>
 					<h2>Books I Recommend</h2>
-					<p class="kalam" style="margin-bottom: 4rem;">Check out my latest reviews!</p>
+					<p class="kalam" style="margin-bottom: 4rem;">Check out my latest recommendations!</p>
 				</header>
  
 
-			  {% for post in collections.review limit:2 %}
-			  <div class="book-review-unit">
+			  {% for post in collections.recommendation limit:3 reversed %}
+			  <div class="book-recc-unit">
 				  <h3  >
 	  				{{post.data.title}}
 	  			</h3>
@@ -235,13 +231,18 @@
 	  		</p>
 	  	 
 	  		
-	  		<p class="align-left">{{post.data.review_content}}</p>Reviewed on: {{post.data.pub_date}}
+			  <p class="align-left">{{post.data.recommendation_content}}</p>
+			  <p class="align-left"><ul class="align-left" >
+				<li>{{post.data.recommendation_genre}}</li>
+				<li>Reading level: {{post.data.recommendation_reading_level}}</li>
+				<li>{{post.data.recommendation_publication_info}}</li>
+			</ul></p>
 			  </div>
 				{% endfor %}  
 
-				<h4 class="funderline">All My Reviews!</h4>
+				<h4 class="funderline">All My Recommendations!</h4>
 				 <ul>
-					{% for post in collections.review  %}
+					{% for post in collections.recommendation reversed %}
 					<li>  <a href="{{ post.url }}">{{ post.data.title }}</a> </li>
 					{% endfor %}
 					</ul>
@@ -249,7 +250,7 @@
 
 				
 
-				<!-- <div class="book-review-unit">
+				<!-- <div class="book-recc-unit">
 					<h3 class="funderline"><em>Book Title</em></h3>
 					<img src="https://via.placeholder.com/370x440" alt="">
 					<p>Lorem ipsum dolor sit amet, magna etiam adipiscing elit. Vivamus in quam eu turpis venenatis euismod eget ac velit. Magna pharetra eleifend urna quis laoreet. Nullam quis urna iaculis metus ornare accumsan. Sed nunc lacus, lobortis nec ante sit amet.</p>
@@ -277,7 +278,7 @@
 										and inspire.</p>
 								</header>
 								<p>
-									<img src="images/fromSue/Sue Lawrence, 08-24-2020_resized.jpg" alt="">
+									<img src="images/fromSue/Sue Lawrence, 08-24-2020_resized.jpg" alt="" class="mw300">
 									<p>
 										My debut picture book, <em>Montana's Memory Day</em>, is currently being illustrated
 										by SCBWI Montana’s Regional Illustrator, Erika Wilson, and will launch fall, 2021. This foster-
@@ -341,25 +342,7 @@
 									<h2>Contact</h2>
 								</header>
 								<p>I'd love to hear from you! Find me at <a href="https://www.instagram.com/kidlitconnection/">@kidlitconnection</a> or <a href="https://www.instagram.com/scbwimontana/">@scbwimontana</a> on Instagram or please reach out through the form below. Thanks!</p> <br><br>
-								<!-- <form name="contact" method="POST" data-netlify="true" >
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="5"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><a href="" class="button submit">Send Message</a></li>
-									</ul>
-								</form> -->
+								 
 								<form name="contact" method="POST" data-netlify="true">
 									<p>
 									  <label>Name: <input type="text" name="name" /></label>   
