@@ -49,9 +49,10 @@ header p {font-size:1rem}
 
  .smaller-h2 {font-size:16px;}
  .wide-panel .content {width:90%!important}
- .review-content img, .book-cover-full{max-width: 50%;}
+ .review-content img, .book-cover-full{max-width: 400px;}
  .align-left{text-align: left;}
  .mw300{max-width: 300px;}
+ .rec-book-cover{max-width: 300px;}
  
 /* #7867be */
 /* purple from our pics */
