@@ -1,6 +1,6 @@
 module.exports = function (eleventyConfig) {
-    eleventyConfig.addPassthroughCopy("assets");
-    eleventyConfig.addPassthroughCopy("images");
+    eleventyConfig.addPassthroughCopy("src/assets");
+    eleventyConfig.addPassthroughCopy("src/images");
     // eleventyConfig.setUseGitIgnore(false);
     // eleventyConfig.addPassthroughCopy("css");
     eleventyConfig.setTemplateFormats([
@@ -26,8 +26,7 @@ module.exports = function (eleventyConfig) {
         input: "./src",
         output: "_site", // Equivalent to Jekyll's destination property
       },
-      passthroughFileCopy: true,
-      includes: "_includes",
+      
        
     };
   };
