@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
- "scripts": {
+  "scripts": {
     "build": "npm-run-all build:css build:html",
     "build:css": "node-sass src/assets/sass/main.scss > src/assets/css/main.css",
     "build:html": "eleventy",
@@ -26,6 +26,7 @@
     "@11ty/eleventy": "^0.11.0"
   },
   "dependencies": {
+    "markdown-it": "^11.0.1",
     "node-sass": "^4.14.1",
     "npm-run-all": "^4.1.5"
   }

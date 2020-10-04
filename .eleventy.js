@@ -21,6 +21,17 @@ module.exports = function (eleventyConfig) {
       "woff2",
       "njk"
     ]);
+    const markdownIt = require('markdown-it');
+    const markdownItOptions = {
+      html: true,
+      breaks: true,
+      linkify: true,
+    };
+    const md = markdownIt(markdownItOptions)
+    eleventyConfig.setLibrary('md', md);
+    eleventyConfig.addFilter('markdownify', (markdownString) =>
+    md.render(markdownString)
+  );
   
     return {
       dir: {
