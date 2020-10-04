@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+ 
+<html>
+ {%include "head.html"%}
+	<body class="is-preload-0 is-preload-1">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Home -->
+					<article id="home" class="panel special wide-panel">
+						{# <div class="image">
+							<!-- <img src="images/stock-vector-seamless-pattern-of-kids-reading-colorful-books-back-to-school-vector-background-with-diverse-331241861.jpg" alt="" data-position="center center" /> -->
+							<!-- <img src="images/pattern_4.png" alt="" data-position="center center" /> -->
+							<img src="images/Pattern1_White.png" alt="" data-position="center center" />
+						</div> #}
+						<div class="content review-content">
+							<div class="inner">
+								<header>
+									<h1 style="font-size:1.75rem;">{{title | safe}}</h1>
+                               
+								</header>
+								 
+                                <div class="flex-container">
+                                    {{content | safe}}
+                                </div>
+							
+								<ul class="icons">
+									<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a><a href="https://www.instagram.com/kidlitconnection/">@kidlitconnection</a></li>
+									<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a><a href="https://www.instagram.com/scbwimontana/">@scbwimontana</a></li>
+										 
+								</ul>
+							</div>
+						</div>
+					</article>
+ 
+
+			{%include "footer.njk"%}
+
+			</div>
+
+{%include "scripts.html"%}
+	</body>
+</html>
