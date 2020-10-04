@@ -367,6 +367,18 @@ worked behind-the-scenes doing top secret work for America’s government during
 
 			</div>
 
-{%include scripts.html%}
+			<script>
+				if (window.netlifyIdentity) {
+				  window.netlifyIdentity.on("init", user => {
+					if (!user) {
+					  window.netlifyIdentity.on("login", () => {
+						document.location.href = "/admin/";
+					  });
+					}
+				  });
+				}
+			  </script>
+			{%include scripts.html%}
+
 	</body>
 </html>

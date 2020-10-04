@@ -3,3 +3,20 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 # This line should *not* be indented
 media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
+
+collections:
+  - name: "recommendations" # Used in routes, e.g., /admin/collections/blog
+    label: "Recommendations" # Used in the UI
+    folder: "src/recommendations" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "recommendation.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "string", hint: "Must be in the format: YYYY-MM-DD. For example: 2020-09-18"}
+      - {label: "Book Cover", name: "book_cover", widget: "image"}
+      - {label: "Recommendation Content", name: "recommendation_content", widget: "text"}
+      - {label: "Recommendation Genre", name: "recommendation_genre", widget: "string"}
+      - {label: "Recommendation Reading Level", name: "recommendation_reading_level", widget: "string"}
+      - {label: "Recommendation Publication Info", name: "recommendation_publication_info", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "hidden", default: "recommendation"}
