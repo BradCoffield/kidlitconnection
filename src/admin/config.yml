@@ -17,7 +17,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "string", hint: "Must be in the format: YYYY-MM-DD. For example: 2020-09-18"}
       - {label: "Book Cover", name: "book_cover", widget: "image"}
-      - {label: "Recommendation Content", name: "recommendation_content", widget: "text"}
+      - {label: "Recommendation Content", name: "recommendation_content", widget: "markdown"}
       - {label: "Recommendation Genre", name: "recommendation_genre", widget: "string"}
       - {label: "Recommendation Reading Level", name: "recommendation_reading_level", widget: "string"}
       - {label: "Recommendation Publication Info", name: "recommendation_publication_info", widget: "string"}
