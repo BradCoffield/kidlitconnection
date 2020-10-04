@@ -143,11 +143,11 @@ header p {
 }
 .gallery-wrap a {border-bottom: 0px dotted;margin: 0 5px;}
 
-.button {box-shadow: 0px 0px 7px #ec8e62;}
+.button {box-shadow: 0px 0px 117px #ec8e62;}
 .button.back {box-shadow: 0px 0px 1px #ec8e62}
 /* .button {box-shadow: 0px 1px 10px #ec8e62;} */
 a.button:hover, a.button:active {
-  color:#444!important;
+  color:#111!important;
 }
 /* #7867be */
 /* purple from our pics */
