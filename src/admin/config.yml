@@ -19,3 +19,4 @@ collections:
       - {label: "Recommendation Genre", name: "recommendation_genre", widget: "string"}
       - {label: "Recommendation Reading Level", name: "recommendation_reading_level", widget: "string"}
       - {label: "Recommendation Publication Info", name: "recommendation_publication_info", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "hidden", default: "recommendation"}
