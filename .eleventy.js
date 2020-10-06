@@ -21,14 +21,12 @@ module.exports = function (eleventyConfig) {
       "woff2",
       "njk"
     ]);
-    const markdownIt = require('markdown-it');
-    const markdownItOptions = {
-      html: true,
-      breaks: true,
-      linkify: true,
-    };
-    const md = markdownIt(markdownItOptions)
-    eleventyConfig.setLibrary('md', md);
+ 
+  md = require('markdown-it')({
+    html: true,
+    linkify: true,
+    typographer: true,
+  });
     eleventyConfig.addFilter('markdownify', (markdownString) =>
     md.render(markdownString)
   );

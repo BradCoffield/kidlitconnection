@@ -149,6 +149,7 @@ header p {
 a.button:hover, a.button:active {
   color:#111!important;
 }
+strong {font-weight: bold;}
 /* #7867be */
 /* purple from our pics */
 
