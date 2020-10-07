@@ -2,6 +2,7 @@
 title: Kidlit Connection Homepage
 ---
 
+
 <!DOCTYPE HTML>
  
 <html>
@@ -214,8 +215,8 @@ worked behind-the-scenes doing top secret work for America’s government during
 					<p class="kalam variablesubhead" style="margin-bottom: 4rem;">Check out my latest recommendations!</p>
 				</header>
  
-
-			  {% for post in collections.recommendation limit:3 reversed %}
+				{% assign latestPosts = collections.recommendation | reverse %}
+			  {% for post in latestPosts limit:3 %}
 			  <div class="book-recc-unit">
 				  <h3  >
 	  				{{post.data.title}}
@@ -226,7 +227,7 @@ worked behind-the-scenes doing top secret work for America’s government during
 	  		</p>
 	  	 
 	  		
-			  <p class="align-left">{{post.data.recommendation_content}}</p>
+			  <p class="align-left">{{post.data.recommendation_content | markdownify | safe}}</p>
 			  <p class="align-left"><ul class="align-left" >
 				<li>{{post.data.recommendation_genre}}</li>
 				<li>Reading level: {{post.data.recommendation_reading_level}}</li>

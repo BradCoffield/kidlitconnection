@@ -32,14 +32,16 @@
         <img src="{{book_cover}}?nf_resize=fit&w=400" alt="Book Cover" class="rec-book-cover">
 </p>
 </div> 
-
-<p class="align-left">{{recommendation_content | markdownify | safe  }}</p>
-
-<p class="align-left"><ul class="align-left" >
-    <li>{{recommendation_genre}}</li>
-    <li>Reading level: {{recommendation_reading_level}}</li>
-    <li>{{recommendation_publication_info}}</li>
-</ul></p>
+<div class="align-left">
+	
+	<p class="align-left">{{recommendation_content | markdownify | safe  }}</p>
+	
+	<p class="align-left"><ul class="align-left" >
+	    <li>{{recommendation_genre}}</li>
+	    <li>Reading level: {{recommendation_reading_level}}</li>
+	    <li>{{recommendation_publication_info}}</li>
+	</ul></p>
+</div>
                                 </div>
 							
 								<ul class="icons">

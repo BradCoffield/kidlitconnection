@@ -8,7 +8,7 @@ public_folder: "/images/uploads" # The src attribute for uploaded media will beg
 
 collections:
   - name: "recommendations" # Used in routes, e.g., /admin/collections/blog
-    label: "Recommendations" # Used in the UI
+    label: "Recommendation" # Used in the UI
     folder: "src/recommendations" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -22,3 +22,31 @@ collections:
       - {label: "Recommendation Reading Level", name: "recommendation_reading_level", widget: "string"}
       - {label: "Recommendation Publication Info", name: "recommendation_publication_info", widget: "string"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "recommendation"}
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Sitewide Metadata"
+        name: "sitewide_metadata"
+        file: "src/_data/site.json"
+        fields:
+          # - {label: Title, name: title, widget: string}
+          # - {label: Intro, name: intro, widget: markdown}
+          - label: Team
+            name: team
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Position, name: position, widget: string}
+              - {label: Photo, name: photo, widget: image}
+      - label: "Locations Page"
+        name: "locations"
+        file: "site/content/locations.yml"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Intro, name: intro, widget: markdown}
+          - label: Locations
+            name: locations
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Address, name: address, widget: string}

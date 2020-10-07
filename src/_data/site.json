@@ -7,5 +7,13 @@
     "author": {
       "name": "Sue Lawrence"
     },
+    "description": "A website by Sue Lawrence, kidlit author and enthusiast. More than just an author page it has resources for other kidlit creators!",
+    "mainPageNames": {
+      "Page1": "My Books",
+      "Page2": "Kidlit Resources",
+      "Page3": "Books I Recommend",
+      "Page4": "About Me",
+      "Page5": "Contact"
+    },
     "og_locale": "en_US"
   }
