@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
- 
+
 # These lines should *not* be indented
 media_folder: "src/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
@@ -13,40 +13,63 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "recommendation.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "string", hint: "Must be in the format: YYYY-MM-DD. For example: 2020-09-18"}
-      - {label: "Book Cover", name: "book_cover", widget: "image"}
-      - {label: "Recommendation Content", name: "recommendation_content", widget: "markdown"}
-      - {label: "Recommendation Genre", name: "recommendation_genre", widget: "string"}
-      - {label: "Recommendation Reading Level", name: "recommendation_reading_level", widget: "string"}
-      - {label: "Recommendation Publication Info", name: "recommendation_publication_info", widget: "string"}
-      - {label: "Tags", name: "tags", widget: "hidden", default: "recommendation"}
+      - {
+          label: "Layout",
+          name: "layout",
+          widget: "hidden",
+          default: "recommendation.njk",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "string",
+          hint: "Must be in the format: YYYY-MM-DD. For example: 2020-09-18",
+        }
+      - { label: "Book Cover", name: "book_cover", widget: "image" }
+      - {
+          label: "Recommendation Content",
+          name: "recommendation_content",
+          widget: "markdown",
+        }
+      - {
+          label: "Recommendation Genre",
+          name: "recommendation_genre",
+          widget: "string",
+        }
+      - {
+          label: "Recommendation Reading Level",
+          name: "recommendation_reading_level",
+          widget: "string",
+        }
+      - {
+          label: "Recommendation Publication Info",
+          name: "recommendation_publication_info",
+          widget: "string",
+        }
+      - {
+          label: "Tags",
+          name: "tags",
+          widget: "hidden",
+          default: "recommendation",
+        }
   - label: "Pages"
     name: "pages"
     files:
-      - label: "Sitewide Metadata"
-        name: "sitewide_metadata"
+      - label: "Page Titles"
+        name: "Page Titles"
         file: "src/_data/site.json"
         fields:
-          # - {label: Title, name: title, widget: string}
-          # - {label: Intro, name: intro, widget: markdown}
-          - label: Team
-            name: team
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Position, name: position, widget: string}
-              - {label: Photo, name: photo, widget: image}
-      - label: "Locations Page"
-        name: "locations"
-        file: "site/content/locations.yml"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
-          - label: Locations
-            name: locations
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Address, name: address, widget: string}
+          - { label: Page One, name: Page1_Title, widget: string }
+          - { label: Page Two, name: Page2_Title, widget: string }
+          - { label: Page Three, name: Page3_Title, widget: string }
+          - { label: Page Four, name: Page4_Title, widget: string }
+          - { label: Page Five, name: Page5_Title, widget: string }
+
+          # - label: Team
+          #   name: team
+          #   widget: list
+          #   fields:
+          #     - {label: Name, name: name, widget: string}
+          #     - {label: Position, name: position, widget: string}
+          #     - {label: Photo, name: photo, widget: image}
