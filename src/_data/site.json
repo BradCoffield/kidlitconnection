@@ -1,19 +1,24 @@
 {
-    "title": "KidLit Connection",
-    "url": "https://www.kidlitconnection.com",
-    "baseurl": "",
-    "repo": "https://github.com/BradCoffield/kidlitconnection",
-    "comments": false,
-    "author": {
-      "name": "Sue Lawrence"
-    },
-    "description": "A website by Sue Lawrence, kidlit author and enthusiast. More than just an author page it has resources for other kidlit creators!",
-    "mainPageNames": {
-      "Page1": "My Books",
-      "Page2": "Kidlit Resources",
-      "Page3": "Books I Recommend",
-      "Page4": "About Me",
-      "Page5": "Contact"
-    },
-    "og_locale": "en_US"
-  }
+  "mainPageNames": {
+    "Page1": "My Books",
+    "Page2": "Kidlit Resources",
+    "Page3": "Books I Recommend",
+    "Page4": "About Me",
+    "Page5": "Contact"
+  },
+  "og_locale": "en_US",
+  "author": {
+    "name": "Sue Lawrence"
+  },
+  "url": "https://www.kidlitconnection.com",
+  "repo": "https://github.com/BradCoffield/kidlitconnection",
+  "comments": false,
+  "title": "KidLit Connection",
+  "Page1_Title": "test",
+  "Page2_Title": "test2",
+  "description": "A website by Sue Lawrence, kidlit author and enthusiast. More than just an author page it has resources for other kidlit creators!",
+  "Page3_Title": "test3",
+  "Page4_Title": "test555",
+  "baseurl": "",
+  "Page5_Title": "erewre"
+}
