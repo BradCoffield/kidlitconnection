@@ -1,5 +1,9 @@
 ---
-title: Kidlit Connection Homepage
+title: Kidlit Connection
+subheading: A website by Sue Lawrence, kidlit author and enthusiast
+homepage_banner: images/kidlitconnection_funforest.jpg
+myBooks_banner: images/kidlitconnection_blueforest_2.jpg
+myBooks_subheading: I'm so happy you're here to learn more about my forthcoming book and my WWII themed work-in-progress!
 ---
 
 
@@ -16,7 +20,7 @@ title: Kidlit Connection Homepage
 					<article id="home" class="panel special">
 						<div class="image">
 							 
-							<img src="images/kidlitconnection_funforest.jpg?nf_resize=fit&w=750" alt="" data-position="right center" />
+							<img src="{{homepage_banner}}?nf_resize=fit&w=750" alt="" data-position="right center" />
 						</div>
 						<div class="content">
 							<div class="inner">
@@ -24,17 +28,16 @@ title: Kidlit Connection Homepage
 									
 									<h1 >{{site.title}}</h1>
 									
-									<p  class="kalam variablesubhead">A website by Sue Lawrence, kidlit author and enthusiast
+									<p  class="kalam variablesubhead">{{subheading}}
 										</p> 
 								</header>
 								<nav id="nav">
 									<ul class="actions stacked special animated spinY">
-										<li><a href="#my-books" class="button kalam">My Books</a></li>
-										<li><a href="#kidlit-resources" class="button kalam">Kidlit Resources</a></li>
-										<li><a href="#recommended-books" class="button kalam">Books I Recommend</a></li>
-										<li><a href="#about-me" class="button kalam">About Me</a></li>
-										<li><a href="#contact" class="button kalam">Contact</a></li>
-										<!--<li><a href="#elements" class="button">Elements</a></li>-->
+										<li><a href="#my-books" class="button kalam">{{site.Page1_Title}}</a></li>
+										<li><a href="#kidlit-resources" class="button kalam">{{site.Page2_Title}}</a></li>
+										<li><a href="#recommended-books" class="button kalam">{{site.Page3_Title}}</a></li>
+										<li><a href="#about-me" class="button kalam">{{site.Page4_Title}}</a></li>
+										<li><a href="#contact" class="button kalam">{{site.Page5_Title}}</a></li>
 									</ul>
 								</nav>
 								
@@ -55,7 +58,7 @@ title: Kidlit Connection Homepage
 				<!-- My Books section -->
 					<article id="my-books" class="panel secondary">
 						<div class="image tiling">
-							<img src="images/kidlitconnection_blueforest_2.jpg?nf_resize=fit&w=450" alt="" data-position="center center"/>
+							<img src="{{myBooks_banner}}?nf_resize=fit&w=450" alt="" data-position="center center"/>
 						 
 						</div>
 						<div class="content">
@@ -66,7 +69,7 @@ title: Kidlit Connection Homepage
 							<div class="inner">
 								<header>
 									<h2>My Books</h2>
-									<p class="kalam variablesubhead">I'm so happy you're here to learn more about my forthcoming book and my WWII themed work-in-progress!</p>
+									<p class="kalam variablesubhead">{{myBooks_subheading}}</p>
 									
 								</header>
 								<p>I write kidlit for preschoolers to middle graders—from fiction to nonfiction—but, in all my
