@@ -67,15 +67,15 @@ collections:
           - { label: Page Five, name: Page5_Title, widget: string }
       - label: "General Content"
         name: "General Content"
-        file: "src/_data/site.json"
+        file: "src/_data/content.json"
         fields:
           - { label: Homepage Subheading, name: subheading, widget: string }
       - label: "Site Content"
         name: "Site Content"
         file: "src/index.html"
         fields:
-          - { label: Homepage Subheading, name: subheading, widget: string }
           - { label: Homepage Banner, name: homepage_banner, widget: image }
+          - { label: Homepage Subheading, name: subheading, widget: string }
           - { label: My Books Banner, name: myBooks_banner, widget: image }
           - { label: My Books Subheading, name: myBooks_subheading, widget: string }
           - { label: My Books Content Top, name: myBooks_content_top, widget: markdown }
