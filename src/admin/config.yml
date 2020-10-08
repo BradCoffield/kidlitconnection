@@ -65,6 +65,11 @@ collections:
           - { label: Page Three, name: Page3_Title, widget: string }
           - { label: Page Four, name: Page4_Title, widget: string }
           - { label: Page Five, name: Page5_Title, widget: string }
+      - label: "General Content"
+        name: "General Content"
+        file: "src/_data/site.json"
+        fields:
+          - { label: Homepage Subheading, name: subheading, widget: string }
       - label: "Site Content"
         name: "Site Content"
         file: "src/index.html"
@@ -73,6 +78,7 @@ collections:
           - { label: Homepage Banner, name: homepage_banner, widget: image }
           - { label: My Books Banner, name: myBooks_banner, widget: image }
           - { label: My Books Subheading, name: myBooks_subheading, widget: string }
-          - { label: My Books Content1, name: myBooks_content, widget: markdown }
+          - { label: My Books Content Top, name: myBooks_content_top, widget: markdown }
+          - { label: My Books Content MMD, name: myBooks_content_mmd, widget: markdown }
 
  
