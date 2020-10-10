@@ -61,25 +61,11 @@
 									<p class="kalam variablesubhead">{{myBooks.myBooks_subheading}}</p>
 									
 								</header>
-								<!-- <p>I write kidlit for preschoolers to middle graders—from fiction to nonfiction—but, in all my
-									books one thing shows through: they’re all rooted in the truth in some way.</p>
-									<p>
-										Montana’s Memory Day is a realistic fiction picture book for ages 5 and up inspired by a
-compilation of the life stories of several real people.
-									</p>
-									<p>
-										My WWII-themed work-in-progress is nonfiction for ages 8-12. It’s about two women who
-worked behind-the-scenes doing top secret work for America’s government during wartime.
-									</p> -->
+					 
 									{{myBooks.myBooks_content_top | markdownify | safe}}
 								<h3 class="funderline"><em>Montana's Memory Day</em></h3>
 								 {{myBooks.myBooks_content_mmd | markdownify | safe}}
-								<!-- <h4>Illustration Style</h4>
-								<p>
-									<a data-fancybox="gallery" href="images/pic01.jpg"><img src="https://via.placeholder.com/150"></a>
-	<a data-fancybox="gallery" href="images/spotlight01.jpg"><img src="https://via.placeholder.com/170"></a>
-	<a data-fancybox="gallery" href="images/spotlight01.jpg"><img src="https://via.placeholder.com/155x125"></a>
-								</p> -->
+								 
 							
 						
 	 
@@ -110,8 +96,7 @@ worked behind-the-scenes doing top secret work for America’s government during
 					<h2>Kidlit Resources</h2>
 					<p class="kalam variablesubhead">{{kidlitResources.klr_subheading}}</p>
 				</header>
-				<!-- <h3 class="funderline">Craft Books</h3> -->
-
+			 
 
 				<ul class="rec-resource-ul">
 					{% for item in kidlitResources.klr_content_top %}
@@ -150,7 +135,7 @@ worked behind-the-scenes doing top secret work for America’s government during
 	<!-- Books I Recommend -->
 	<article id="recommended-books" class="panel secondary">
 		<div class="image tiling" >
-			<img src="images/kidlitconnection_whiteforest_2.jpg?nf_resize=fit&w=350" alt="" data-position="center center" />
+			<img src="{{booksRec.booksRec_banner}}?nf_resize=fit&w=350" alt="" data-position="center center" />
 		</div>
 		<div class="content">
 			<ul class="actions animated spinX">
@@ -159,7 +144,7 @@ worked behind-the-scenes doing top secret work for America’s government during
 			<div class="inner">
 				<header>
 					<h2>Books I Recommend</h2>
-					<p class="kalam variablesubhead" style="margin-bottom: 4rem;">Check out my latest recommendations!</p>
+					<p class="kalam variablesubhead" style="margin-bottom: 4rem;">{{booksRec.booksRec_subheading}}</p>
 				</header>
  
 				{% assign latestPosts = collections.recommendation | reverse %}
@@ -190,17 +175,6 @@ worked behind-the-scenes doing top secret work for America’s government during
 					{% endfor %}
 					</ul>
 			  
-
-				
-
-				<!-- <div class="book-recc-unit">
-					<h3 class="funderline"><em>Book Title</em></h3>
-					<img src="https://via.placeholder.com/370x440" alt="">
-					<p>Lorem ipsum dolor sit amet, magna etiam adipiscing elit. Vivamus in quam eu turpis venenatis euismod eget ac velit. Magna pharetra eleifend urna quis laoreet. Nullam quis urna iaculis metus ornare accumsan. Sed nunc lacus, lobortis nec ante sit amet.</p>
-					<p>Vitae quis magna. Sed condimentum dui sed nunc dapibus dignissim. Sed at arcu gravida, vehicula massa ut, consectetur urna. Morbi eu venenatis turpis. In tincidunt pharetra etiam veroeros.</p>
-				</div>
-				 -->
-				 
 			</div>
 			{%include colorlogo.html%}</div>
 	</article>

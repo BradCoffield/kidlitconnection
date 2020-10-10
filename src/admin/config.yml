@@ -86,8 +86,22 @@ collections:
         name: "booksRec"
         file: "src/_data/booksRec.json"
         fields:
-          - { label: My Books Banner, name: booksRec_banner, widget: image }
-          - { label: My Books Subheading, name: booksRec_subheading, widget: string }
+          - { label: Books I Recommend Banner, name: booksRec_banner, widget: image }
+          - { label: Books I Recommend Subheading, name: booksRec_subheading, widget: string }
+      - label: About Me
+        name: "aboutMe"
+        file: "src/_data/aboutMe.json"
+        fields:
+          - { label: About Me Banner, name: aboutMe_banner, widget: image }
+          - { label: About Me Subheading, name: aboutMe_subheading, widget: string }    
+          - { label: About Me Personal Photo, name: aboutMe_personalPhoto, widget: image }    
+          - { label: About Me Upper Content, name: aboutMe_upperContent, widget: markdown }    
+          - { label: About Me Lower Content, name: aboutMe_lowerContent, widget: markdown }    
+          - label: About Me Gallery
+            name: aboutMe_gallery
+            widget: "list"
+            fields:
+              - {label: Image, name: image, widget: image}
       - label: "Kidlit Resources"
         name: "KidlitResources"
         file: "src/_data/kidlitResources.json"

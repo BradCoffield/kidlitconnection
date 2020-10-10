@@ -1,9 +1,8 @@
 {
-    "aboutMe_banner":"",
-    "aboutMe_subheading":"",
-    "aboutMe_personalPhoto":"",
-    "aboutMe_topContent":"",
-    "aboutMe_lowerContent":""
-    
-
+    "aboutMe_banner": "",
+    "aboutMe_subheading": "",
+    "aboutMe_personalPhoto": "",
+    "aboutMe_upperContent": "",
+    "aboutMe_lowerContent": "",
+    "aboutMe_gallery": ""
 }
