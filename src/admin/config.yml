@@ -81,6 +81,7 @@ collections:
           - { label: My Books Subheading, name: myBooks_subheading, widget: string }
           - { label: My Books Content Top, name: myBooks_content_top, widget: markdown }
           - { label: My Books Content MMD, name: myBooks_content_mmd, widget: markdown }
+          - { label: My Books Content WIP, name: myBooks_content_wip, widget: markdown }
       - label: "Kidlit Resources"
         name: "MyBooks"
         file: "src/_data/kidlitResources.json"
