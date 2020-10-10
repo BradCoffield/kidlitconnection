@@ -1,14 +1,14 @@
 {
-  "title": "KidLit Connection",
+  "LogoBW": "/images/uploads/logo-774-kb-2-b-w.jpg",
+  "Logo": "/images/uploads/suelawrence_logo_transparent.png",
+  "name": "Sue Lawrence",
   "url": "https://www.kidlitconnection.com",
   "repo": "https://github.com/BradCoffield/kidlitconnection",
-  "name": "Sue Lawrence",
-  "description": "A website by Sue Lawrence, kidlit author and enthusiast. More than just an author page it has resources for other kidlit creators!",
+  "title": "KidLit Connection",
   "Page1_Title": "My Books",
   "Page2_Title": "Kidlit Resources",
+  "description": "A website by Sue Lawrence, kidlit author and enthusiast. More than just an author page it has resources for other kidlit creators!",
   "Page3_Title": "Books I Recommend",
   "Page4_Title": "About Me",
-  "Page5_Title": "Contact",
-  "Logo": "",
-  "LogoBW": ""
+  "Page5_Title": "Contact"
 }
