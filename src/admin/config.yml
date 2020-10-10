@@ -82,6 +82,12 @@ collections:
           - { label: My Books Content Top, name: myBooks_content_top, widget: markdown }
           - { label: My Books Content MMD, name: myBooks_content_mmd, widget: markdown }
           - { label: My Books Content WIP, name: myBooks_content_wip, widget: markdown }
+      - label: "Books I Recommend"
+        name: "booksRec"
+        file: "src/_data/booksRec.json"
+        fields:
+          - { label: My Books Banner, name: booksRec_banner, widget: image }
+          - { label: My Books Subheading, name: booksRec_subheading, widget: string }
       - label: "Kidlit Resources"
         name: "KidlitResources"
         file: "src/_data/kidlitResources.json"

@@ -116,7 +116,7 @@ worked behind-the-scenes doing top secret work for America’s government during
 				<ul class="rec-resource-ul">
 					{% for item in kidlitResources.klr_content_top %}
 					<li class="rec-resource-title">{{item.title}}</li>
-					<li class="rec-resource-desc">{%if item.image%}<img src="{{item.image}}?nf_resize=fit&w=350" alt="" class="rec-resource-thumb">{%endif%}{{item.content | markdownify | safe}}
+					<li class="rec-resource-desc clearfix">{%if item.image%}<img src="{{item.image}}?nf_resize=fit&w=350" alt="" class="rec-resource-thumb">{%endif%}{{item.content | markdownify | safe}}
 						</li>
 					{%endfor%}
 					
@@ -126,7 +126,7 @@ worked behind-the-scenes doing top secret work for America’s government during
 				<ul class="rec-resource-ul">
 					{% for item in kidlitResources.klr_content_conferences %}
 					<li class="rec-resource-title">{{item.title}}</li>
-					<li class="rec-resource-desc">{%if item.image%}<img src="{{item.image}}?nf_resize=fit&w=350" alt="" class="rec-resource-thumb">{%endif%}{{item.content | markdownify | safe}}
+					<li class="rec-resource-desc clearfix">{%if item.image%}<img src="{{item.image}}?nf_resize=fit&w=350" alt="" class="rec-resource-thumb">{%endif%}{{item.content | markdownify | safe}}
 						</li>
 					{%endfor%}
 					
