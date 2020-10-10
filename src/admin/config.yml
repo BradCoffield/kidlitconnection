@@ -93,7 +93,7 @@ collections:
             widget: "list"
             fields:
               - {label: Title, name: title, widget: string}
-              - {label: Image (optional), name: image, widget: image, required: false}
+              - {label: Image, name: image, widget: image, required: false}
               - {label: Content, name: content, widget: markdown}
               - {label: Date, name: date, widget: string, hint: "Must be in the format: YYYY-MM-DD. For example: 2020-09-18"}
           - label: Kidlit Resources - Conferences Content
@@ -101,7 +101,7 @@ collections:
             widget: "list"
             fields:
               - {label: Title, name: title, widget: string}
-              - {label: Image (optional), name: image, widget: image, required: false}
+              - {label: Image, name: image, widget: image, required: false}
               - {label: Content, name: content, widget: markdown}
               - {label: Date, name: date, widget: string, hint: "Must be in the format: YYYY-MM-DD. For example: 2020-09-18"}
           - label: Kidlit Resources - Additional Content
@@ -109,7 +109,7 @@ collections:
             widget: "list"
             fields:
               - {label: Title, name: title, widget: string}
-              - {label: Image (optional), name: image, widget: image, required: false}
+              - {label: Image, name: image, widget: image, required: false}
               - {label: Content, name: content, widget: markdown}
               - {label: Date, name: date, widget: string, hint: "Must be in the format: YYYY-MM-DD. For example: 2020-09-18"}
        

@@ -116,7 +116,7 @@ worked behind-the-scenes doing top secret work for America’s government during
 				<ul class="rec-resource-ul">
 					{% for item in kidlitResources.klr_content_top %}
 					<li class="rec-resource-title">{{item.title}}</li>
-					<li class="rec-resource-desc">{{item.content | markdownify |safe}}
+					<li class="rec-resource-desc">{%if item.image%}<img src="{{item.image}}?nf_resize=fit&w=350" alt="" class="rec-resource-thumb">{%endif%}{{item.content | markdownify | safe}}
 						</li>
 					{%endfor%}
 					
@@ -125,7 +125,7 @@ worked behind-the-scenes doing top secret work for America’s government during
 				<h3 class="funderline spacioush3">Conferences &amp; Webinars for Writers &amp; Illustrators</h3>
 				<ul class="rec-resource-ul">
 					<li class="rec-resource-title">SCBWI &amp; Smithsonian Nonfiction Workshop</li>
-					<li class="rec-resource-desc">The SCBWI &amp; Smithsonian Nonfiction Workshop is scheduled for Friday and Saturday,
+					<li class="rec-resource-desc"><img src="{{TODO:}}?nf_resize=fit&w=350" alt="" class="rec-resource-thumb">The SCBWI &amp; Smithsonian Nonfiction Workshop is scheduled for Friday and Saturday,
 						November 6-8, 2020. There will be keynote speakers, book editor panels, author panels, special
 						topics and more of interest to kidlit nonfiction writers and illustrators. Registration, faculty bios,
 						and workshop schedule for this virtual workshop are at <a href="https://www.scbwi.org/events/nonfiction-
