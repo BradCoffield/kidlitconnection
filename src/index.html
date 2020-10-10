@@ -182,7 +182,7 @@
 				<!-- About Me -->
 					<article id="about-me" class="panel secondary">
 						<div class="image tiling">
-							<img src="images/kidlitconnection_openbooks_2.jpg?nf_resize=fit&w=450" alt="" data-position="center center" />
+							<img src="{{aboutMe.aboutMe_banner}}?nf_resize=fit&w=450" alt="" data-position="center center" />
 						</div>
 						<div class="content">
 							<ul class="actions animated spinX">
@@ -191,51 +191,21 @@
 							<div class="inner">
 								<header>
 									<h2>About Me</h2>
-									<p class="kalam variablesubhead">Hello, I’m Sue Lawrence, writer and reader of children’s picture books that encourage, inform,
-										and inspire.</p>
+									<p class="kalam variablesubhead">{{aboutMe.aboutMe_subheading}}</p>
 								</header>
 								<p>
-									<img src="images/Sue Lawrence, 08-24-2020_resized.jpg?nf_resize=fit&w=350" alt="" class="mw300"><br><span class="photo-credit">Photo credit: Halie Cardinal</span>
-									<p>
-										My debut picture book, <em>Montana's Memory Day</em>, is currently being illustrated
-										by SCBWI Montana’s Regional Illustrator Coordinator, Erika Wilson, and will launch fall, 2021 from Mascot Books. Erika is using a linocut print and watercolor method to illustrate this foster kid/adoption story set in the middle of a Montana winter.
-									</p>
-									<p>
-										My writing journey has been a roundabout one. I wrote poetry and a play as a teen in Alabama
-										and won 1 st place in a creative writing contest at my high school when I was 17. Then I didn’t
-										write again until I was in my 50’s and trying to transition out of healthcare. I joined critique
-										groups, took non-credit college courses, entered every writing contest I could find, and attended
-										writer’s conferences with stay-awake-all-night excitement. I was fortunate enough to win a few
-										of those writing contests. I also racked up enough rejection letters to wallpaper a kitchen.
-									</p>
-									<p>
-										Finally, after working as a Registered Nurse for over 40 years (including college), I gave away or
-										threw away all my belongings except for what would fit in my car, and drove 1,900 miles night
-										and day from Alabama to Montana to attend college, second time around. I arrived at Rocky Mountain
-										College sight-unseen, three hours before the fall registration start time. This time, I majored in
-										English: creative writing and soaked up the college experience with new college friends one-third my age. I don’t believe God gives us do-overs, but I’m a strong believer in the “do anew”!
-									</p>
+									<img src="{{aboutMe.aboutMe_personalPhoto}}?nf_resize=fit&w=350" alt="" class="mw300"><br><span class="photo-credit">Photo credit: Halie Cardinal</span>
+									{{aboutMe.aboutMe_upperContent | markdownify |safe}}
 									<p class="gallery-wrap">
 										<!-- first image is the fullsize the second is the thumb -->
-										<a data-fancybox="gallery" href="images/RMC Graduation 2019, Photo by Ty.jpg?nf_resize=fit&w=750"><img src="images/RMC Graduation 2019, Photo by Ty.jpg?nf_resize=fit&w=180" width="180"></a><a data-fancybox="gallery" href="images/Graduation Day 05-04-2019, Sue Lawrence, Photo credit Marina Eshelman.jpg?nf_resize=fit&w=750"><img src="images/Graduation Day 05-04-2019, Sue Lawrence, Photo credit Marina Eshelman.jpg?nf_resize=fit&w=160" width="160"></a>
-		<a data-fancybox="gallery" href="images/Friend zone, Graduation 2019, Photo by Ty.jpg?nf_resize=fit&w=750"><img src="images/Friend zone, Graduation 2019, Photo by Ty.jpg?nf_resize=fit&w=180" width="180"></a>
-		
+										{% for item in aboutMe.aboutMe_gallery %}
+										<a data-fancybox="gallery" href="{{item.image}}?nf_resize=fit&w=750"><img src="{{item.image}}?nf_resize=fit&w=180" width="180"></a>
+										{%endfor%}
+
+
+										 
 									</p>
-									<p>
-										When I earned my BA degree over a year ago at the age of 60, I was the oldest graduate to cross
-										the commencement stage to receive my diploma. I liked the college so much I now work for it by
-										day—as a writer, and write my kidlit at night.
-									</p>
-									<p>
-										I’ve been an active member of SCBWI (Society of Children’s Book Writers and Illustrators)
-										since 2016, and am SCBWI Montana’s volunteer Instagram social media maven.
-									</p>
-									<p sty>
-										Montana is home now — it’s no surprise that my debut picture book is Montana-themed. I love
-										this scenic state and its hard-working folk. I admit—it took me way too long to get here, but
-										sometimes the long ‘round-about scenic route’s the best one, anyway. I speak from
-										experience—you CAN reroute your life’s GPS at any age. Yes, at ANY age!
-									</p>
+									{{aboutMe.aboutMe_lowerContent | markdownify |safe}}
 								<p style="text-align: center;margin-bottom: 5px;">You can follow my journeys on Instagram:
 									<ul style="list-style-type:none;text-align: center;margin-top:10px;">
 										<li> <a href="https://www.instagram.com/kidlitconnection/">@kidlitconnection</a></li>
