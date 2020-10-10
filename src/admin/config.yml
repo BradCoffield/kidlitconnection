@@ -86,10 +86,14 @@ collections:
         name: "KidlitResources"
         file: "src/_data/kidlitResources.json"
         fields:
-          - { label: Kidlit Resources Banner, name: kidlitResources_banner, widget: image }
-          - { label: Kidlit Resources Subheading, name: kidlitResources_subheading, widget: string }
-          - { label: Kidlit Resources Content Top, name: kidlitResources_content_top, widget: markdown }
+          - { label: Kidlit Resources Banner, name: klr_banner, widget: image }
+          - { label: Kidlit Resources Subheading, name: klr_subheading, widget: string }
+          - label: Kidlit Resources Content Top
+            name: klr_content_top
+            widget: "list"
+            fields:
+              - {label: Title, name: title, widget: string, default: "Everything is awesome!"}
+              - {label: Content, name: content, widget: markdown}
        
           
 
- 
