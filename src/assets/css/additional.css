@@ -1,3 +1,9 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .logo,
 h1,
 h2,
@@ -44,6 +50,7 @@ header p {
 .rec-resource-title {
   list-style-type: none;
   font-weight: bold;
+  margin-top: 24px;
 }
 .rec-resource-desc {
   list-style-type: none;
