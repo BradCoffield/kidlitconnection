@@ -7,5 +7,20 @@
     }
   ],
   "klr_banner": "/images/uploads/kidlitconnection_children_2.png",
-  "klr_subheading": "An up-to-date listing of conferences, books, courses, and other things of interest to kidlit authors!"
+  "klr_subheading": "An up-to-date listing of conferences, books, courses, and other things of interest to kidlit authors!",
+  "klr_content_conferences": [
+    {
+      "title": "SCBWI & Smithsonian Nonfiction Workshop",
+      "content": "The SCBWI & Smithsonian Nonfiction Workshop is scheduled for Friday and Saturday, November 6-8, 2020. There will be keynote speakers, book editor panels, author panels, special topics and more of interest to kidlit nonfiction writers and illustrators. Registration, faculty bios, and workshop schedule for this virtual workshop are at <https://www.scbwi.org/events/nonfiction-workshop/> .",
+      "date": "2020-10-10"
+    }
+  ],
+  "klr_content_additional": [
+    {
+      "title": "Montana Kids",
+      "image": "/images/uploads/montanakids.com.jpg",
+      "content": "[Montanakids.com](https://www.montanakids.com/) provides a slew of info about Montana. They discuss our state’s history and statistics, main agricultural and business products, plants and animals, things to see and do, games and activities, and tell a few Montana-themed stories along the way.",
+      "date": "2020-10-10"
+    }
+  ]
 }
