@@ -1,5 +1,10 @@
 {
-    "klr_banner":"",
-    "klr_subheading": "",
-    "content_top_section": ""
+  "klr_content_top": [
+    {
+      "title": "SCBWI (Society of Children’s Book Writers and Illustrators)",
+      "content": "The SCBWI (Society of Children’s Book Writers and Illustrators) is one international professional membership **every** aspiring kidlit writer and illustrator should invest in. I’ve been a member since 2016 and the benefits are **more** than worth the cost of an annual membership ($95/year first year, then $80/year renewal annually after that. College/graduate student rate: $65/year to join, then $55/year renewal.)\n\nFind out about the professional development opportunities, book marketing and promotion, print and online resources, awards and grant opportunities, newsletters, and more on SCBWI’s Membership Benefits page: <https://www.scbwi.org/membership-benefits-new/>\n\nWhen you join SCBWI, you automatically become a member of your region’s local chapter—which in our case, is Montana. Find out about our regional events at <https://montana.scbwi.org/>."
+    }
+  ],
+  "klr_banner": "/images/uploads/kidlitconnection_children_2.png",
+  "klr_subheading": "An up-to-date listing of conferences, books, courses, and other things of interest to kidlit authors!"
 }
