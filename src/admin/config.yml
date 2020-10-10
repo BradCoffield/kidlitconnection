@@ -88,11 +88,28 @@ collections:
         fields:
           - { label: Kidlit Resources Banner, name: klr_banner, widget: image }
           - { label: Kidlit Resources Subheading, name: klr_subheading, widget: string }
-          - label: Kidlit Resources Content Top
+          - label: Kidlit Resources - Top Area Content
             name: klr_content_top
             widget: "list"
             fields:
-              - {label: Title, name: title, widget: string, default: "Everything is awesome!"}
+              - {label: Title, name: title, widget: string}
+              - {label: Image (optional), name: image, widget: image, required: false}
+              - {label: Content, name: content, widget: markdown}
+              - {label: Date, name: date, widget: string, hint: "Must be in the format: YYYY-MM-DD. For example: 2020-09-18"}
+          - label: Kidlit Resources - Conferences Content
+            name: klr_content_conferences
+            widget: "list"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Image (optional), name: image, widget: image, required: false}
+              - {label: Content, name: content, widget: markdown}
+              - {label: Date, name: date, widget: string, hint: "Must be in the format: YYYY-MM-DD. For example: 2020-09-18"}
+          - label: Kidlit Resources - Additional Content
+            name: klr_content_additional
+            widget: "list"
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Image (optional), name: image, widget: image, required: false}
               - {label: Content, name: content, widget: markdown}
               - {label: Date, name: date, widget: string, hint: "Must be in the format: YYYY-MM-DD. For example: 2020-09-18"}
        

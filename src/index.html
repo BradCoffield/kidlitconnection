@@ -111,25 +111,15 @@ worked behind-the-scenes doing top secret work for America’s government during
 					<p class="kalam variablesubhead">{{kidlitResources.klr_subheading}}</p>
 				</header>
 				<!-- <h3 class="funderline">Craft Books</h3> -->
+
+
 				<ul class="rec-resource-ul">
-					<li class="rec-resource-title">SCBWI (Society of Children’s Book Writers and Illustrators)</li>
-					<li class="rec-resource-desc"><p>
-						The SCBWI (Society of Children’s Book Writers and Illustrators) is one international
-							professional membership <strong>every</strong> aspiring kidlit writer and illustrator should invest in. I’ve been a
-							member since 2016 and the benefits are <strong>more</strong> than worth the cost of an annual membership
-							($95/year first year, then $80/year renewal annually after that. College/graduate student rate:
-							$65/year to join, then $55/year renewal.)
-					</p>
-						<p>
-							Find out about the professional development opportunities, book marketing and promotion, print
-							and online resources, awards and grant opportunities, newsletters, and more on SCBWI’s
-							Membership Benefits page: <a href="https://www.scbwi.org/membership-benefits-new/">https://www.scbwi.org/membership-benefits-new/</a></p>
-							<p>
-								When you join SCBWI, you automatically become a member of your region’s local
-								chapter—which in our case, is Montana. Find out about our regional events at
-								<a href="https://montana.scbwi.org/.">https://montana.scbwi.org/.</a>
-							</p>
+					{% for item in kidlitResources.klr_content_top %}
+					<li class="rec-resource-title">{{item.title}}</li>
+					<li class="rec-resource-desc">{{item.content | markdownify |safe}}
 						</li>
+					{%endfor%}
+					
 				</ul>
 				 
 				<h3 class="funderline spacioush3">Conferences &amp; Webinars for Writers &amp; Illustrators</h3>
