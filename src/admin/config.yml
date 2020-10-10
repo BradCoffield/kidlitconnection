@@ -57,7 +57,7 @@ collections:
     name: "pages"
     files:
       - label: "Page Titles"
-        name: "Page Titles"
+        name: "PageTitles"
         file: "src/_data/site.json"
         fields:
           - { label: Page One, name: Page1_Title, widget: string }
@@ -65,11 +65,20 @@ collections:
           - { label: Page Three, name: Page3_Title, widget: string }
           - { label: Page Four, name: Page4_Title, widget: string }
           - { label: Page Five, name: Page5_Title, widget: string }
-      - label: "General Content"
-        name: "General Content"
-        file: "src/_data/content.json"
+      - label: "Homepage"
+        name: "Homepage"
+        file: "src/_data/homepage.json"
         fields:
+          - { label: Homepage Banner, name: homepage_banner, widget: image }
           - { label: Homepage Subheading, name: subheading, widget: string }
+      - label: "My Books"
+        name: "MyBooks"
+        file: "src/_data/myBooks.json"
+        fields:
+          - { label: My Books Banner, name: myBooks_banner, widget: image }
+          - { label: My Books Subheading, name: myBooks_subheading, widget: string }
+          - { label: My Books Content Top, name: myBooks_content_top, widget: markdown }
+          - { label: My Books Content MMD, name: myBooks_content_mmd, widget: markdown }
       - label: "Site Content"
         name: "Site Content"
         file: "src/index.html"
@@ -79,6 +88,7 @@ collections:
           - { label: My Books Banner, name: myBooks_banner, widget: image }
           - { label: My Books Subheading, name: myBooks_subheading, widget: string }
           - { label: My Books Content Top, name: myBooks_content_top, widget: markdown }
-          - { label: My Books Content MMD, name: myBooks_content_mmd, widget: markdown }
+          - { label: My Books Content MMD, name: myBooks_content_mmd, widget: markdown }    
+          
 
  
