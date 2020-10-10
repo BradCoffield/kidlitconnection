@@ -82,26 +82,6 @@ collections:
           - { label: My Books Content Top, name: myBooks_content_top, widget: markdown }
           - { label: My Books Content MMD, name: myBooks_content_mmd, widget: markdown }
           - { label: My Books Content WIP, name: myBooks_content_wip, widget: markdown }
-      - label: "Books I Recommend"
-        name: "booksRec"
-        file: "src/_data/booksRec.json"
-        fields:
-          - { label: Books I Recommend Banner, name: booksRec_banner, widget: image }
-          - { label: Books I Recommend Subheading, name: booksRec_subheading, widget: string }
-      - label: About Me
-        name: "aboutMe"
-        file: "src/_data/aboutMe.json"
-        fields:
-          - { label: About Me Banner, name: aboutMe_banner, widget: image }
-          - { label: About Me Subheading, name: aboutMe_subheading, widget: string }    
-          - { label: About Me Personal Photo, name: aboutMe_personalPhoto, widget: image }    
-          - { label: About Me Upper Content, name: aboutMe_upperContent, widget: markdown }    
-          - { label: About Me Lower Content, name: aboutMe_lowerContent, widget: markdown }    
-          - label: About Me Gallery
-            name: aboutMe_gallery
-            widget: "list"
-            fields:
-              - {label: Image, name: image, widget: image}
       - label: "Kidlit Resources"
         name: "KidlitResources"
         file: "src/_data/kidlitResources.json"
@@ -129,6 +109,33 @@ collections:
               - {label: Title, name: title, widget: string}
               - {label: Image, name: image, widget: image, required: false}
               - {label: Content, name: content, widget: markdown}
+      - label: "Books I Recommend"
+        name: "booksRec"
+        file: "src/_data/booksRec.json"
+        fields:
+          - { label: Books I Recommend Banner, name: booksRec_banner, widget: image }
+          - { label: Books I Recommend Subheading, name: booksRec_subheading, widget: string }
+      - label: About Me
+        name: "aboutMe"
+        file: "src/_data/aboutMe.json"
+        fields:
+          - { label: About Me Banner, name: aboutMe_banner, widget: image }
+          - { label: About Me Subheading, name: aboutMe_subheading, widget: string }    
+          - { label: About Me Personal Photo, name: aboutMe_personalPhoto, widget: image }    
+          - { label: About Me Upper Content, name: aboutMe_upperContent, widget: markdown }    
+          - { label: About Me Lower Content, name: aboutMe_lowerContent, widget: markdown }    
+          - label: About Me Gallery
+            name: aboutMe_gallery
+            widget: "list"
+            fields:
+              - {label: Image, name: image, widget: image}
+      - label: Contact Me
+        name: "contact"
+        file: "src/_data/contact.json"
+        fields:
+          - { label: Contact Me Banner, name: contact_banner, widget: image }
+          - { label: Contact Me Subheading, name: contact_subheading, widget: string }   
+      
        
           
 
