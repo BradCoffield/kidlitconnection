@@ -56,8 +56,8 @@ collections:
   - label: "Pages"
     name: "pages"
     files:
-      - label: "Page Titles"
-        name: "PageTitles"
+      - label: "Sitewide Data"
+        name: "Sitewide"
         file: "src/_data/site.json"
         fields:
           - { label: Page One, name: Page1_Title, widget: string }
@@ -65,6 +65,8 @@ collections:
           - { label: Page Three, name: Page3_Title, widget: string }
           - { label: Page Four, name: Page4_Title, widget: string }
           - { label: Page Five, name: Page5_Title, widget: string }
+          - { label: Logo, name: Logo, widget: image }
+          - { label: Logo - Black and White, name: LogoBW, widget: image }
       - label: "Homepage"
         name: "Homepage"
         file: "src/_data/homepage.json"
