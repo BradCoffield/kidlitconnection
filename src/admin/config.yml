@@ -94,6 +94,7 @@ collections:
             fields:
               - {label: Title, name: title, widget: string, default: "Everything is awesome!"}
               - {label: Content, name: content, widget: markdown}
+              - {label: Date, name: date, widget: string, hint: "Must be in the format: YYYY-MM-DD. For example: 2020-09-18"}
        
           
 
