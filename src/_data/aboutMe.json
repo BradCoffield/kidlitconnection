@@ -1,8 +1,18 @@
 {
-    "aboutMe_banner": "",
-    "aboutMe_subheading": "",
-    "aboutMe_personalPhoto": "",
-    "aboutMe_upperContent": "",
-    "aboutMe_lowerContent": "",
-    "aboutMe_gallery": ""
+  "aboutMe_banner": "/images/uploads/kidlitconnection_openbooks_2.jpg",
+  "aboutMe_subheading": "Hello, I’m Sue Lawrence, writer and reader of children’s picture books that encourage, inform, and inspire.",
+  "aboutMe_personalPhoto": "/images/uploads/sue-lawrence-08-24-2020_resized.jpg",
+  "aboutMe_upperContent": "My debut picture book, *Montana's Memory Day*, is currently being illustrated by SCBWI Montana’s Regional Illustrator Coordinator, Erika Wilson, and will launch fall, 2021 from Mascot Books. Erika is using a linocut print and watercolor method to illustrate this foster kid/adoption story set in the middle of a Montana winter.\n\nMy writing journey has been a roundabout one. I wrote poetry and a play as a teen in Alabama and won 1 st place in a creative writing contest at my high school when I was 17. Then I didn’t write again until I was in my 50’s and trying to transition out of healthcare. I joined critique groups, took non-credit college courses, entered every writing contest I could find, and attended writer’s conferences with stay-awake-all-night excitement. I was fortunate enough to win a few of those writing contests. I also racked up enough rejection letters to wallpaper a kitchen.\n\nFinally, after working as a Registered Nurse for over 40 years (including college), I gave away or threw away all my belongings except for what would fit in my car, and drove 1,900 miles night and day from Alabama to Montana to attend college, second time around. I arrived at Rocky Mountain College sight-unseen, three hours before the fall registration start time. This time, I majored in English: creative writing and soaked up the college experience with new college friends one-third my age. I don’t believe God gives us do-overs, but I’m a strong believer in the “do anew”!",
+  "aboutMe_lowerContent": "When I earned my BA degree over a year ago at the age of 60, I was the oldest graduate to cross the commencement stage to receive my diploma. I liked the college so much I now work for it by day—as a writer, and write my kidlit at night.\n\nI’ve been an active member of SCBWI (Society of Children’s Book Writers and Illustrators) since 2016, and am SCBWI Montana’s volunteer Instagram social media maven.\n\nMontana is home now — it’s no surprise that my debut picture book is Montana-themed. I love this scenic state and its hard-working folk. I admit—it took me way too long to get here, but sometimes the long ‘round-about scenic route’s the best one, anyway. I speak from experience—you CAN reroute your life’s GPS at any age. Yes, at ANY age!",
+  "aboutMe_gallery": [
+    {
+      "image": "/images/uploads/rmc-graduation-2019-photo-by-ty.jpg"
+    },
+    {
+      "image": "/images/uploads/graduation-day-05-04-2019-sue-lawrence-photo-credit-marina-eshelman.jpg"
+    },
+    {
+      "image": "/images/uploads/friend-zone-graduation-2019-photo-by-ty.jpg"
+    }
+  ]
 }
