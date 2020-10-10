@@ -83,7 +83,7 @@ collections:
           - { label: My Books Content MMD, name: myBooks_content_mmd, widget: markdown }
           - { label: My Books Content WIP, name: myBooks_content_wip, widget: markdown }
       - label: "Kidlit Resources"
-        name: "MyBooks"
+        name: "KidlitResources"
         file: "src/_data/kidlitResources.json"
         fields:
           - { label: Kidlit Resources Banner, name: kidlitResources_banner, widget: image }
