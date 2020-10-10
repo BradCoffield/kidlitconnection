@@ -1,40 +1,3 @@
----
-title: Kidlit Connection
-subheading: A website by Sue Lawrence, kidlit author and enthusiast
-
-myBooks_banner: images/kidlitconnection_blueforest_2.jpg
-myBooks_subheading: I'm so happy you're here to learn more about my forthcoming
-  book and my WWII themed work-in-progress!
-myBooks_content_top: >-
-  I write kidlit for preschoolers to middle graders—from fiction to
-  nonfiction—but, in all my books one thing shows through: they’re all rooted in
-  the truth in some way.
-
-
-  Montana’s Memory Day is a realistic fiction picture book for ages 5 and up inspired by a compilation of the life stories of several real people.
-
-
-  My WWII-themed work-in-progress is nonfiction for ages 8-12. It’s about two women who worked behind-the-scenes doing top secret work for America’s government during wartime.
-myBooks_content_mmd: >-
-
-
-  My debut picture book, Montana’s Memory Day, is a nature-themed foster-to-adoption story set on a farm in Montana. It is being illustrated by 2-time published illustrator, Erika Wilson, who is also a 3rd generation Montana farmer, small business owner, former educator, and mom. Montana’s Memory Day will launch in the fall of 2021 from Mascot Books.
-
-
-  I wrote this book to fulfill a need. I did not grow up as a foster kid, but I married two men who did. That is why I wrote this story—to give voice to older foster kids and teens who are grossly underrepresented in children’s books today. I struggled to find comparable titles that highlight the mixed feelings and inner struggles of this demographic in a relatable and understandable way. When I couldn’t find such a story, I wrote one.
-
-
-  Illustrating a picture book is an artform. Once completed, Erika will have spent 14 months and hundreds of hours illustrating Montana’s Memory Day using a linocut print and watercolor method. In the video she’s carving one of the book’s page spreads out of lino (short for linoleum). It’s a meticulous and time-intensive task that she enjoys (she says!).
-
-
-  You can find out more about Erika Wilson at these locations.
-
-  * Website: [erikawilsonart.com](https://erikawilsonbooks.com/)
-  
-  * Instagram: [@erikawilsonart](https://www.instagram.com/erikawilsonart/) and [@windymillpress](https://www.instagram.com/windymillpress/)
----
-
-
 <!DOCTYPE HTML>
  
 <html>
@@ -86,7 +49,7 @@ myBooks_content_mmd: >-
 				<!-- My Books section -->
 					<article id="my-books" class="panel secondary">
 						<div class="image tiling">
-							<img src="{{myBooks_banner}}?nf_resize=fit&w=450" alt="" data-position="center center"/>
+							<img src="{{myBooks.myBooks_banner}}?nf_resize=fit&w=450" alt="" data-position="center center"/>
 						 
 						</div>
 						<div class="content">
@@ -97,7 +60,7 @@ myBooks_content_mmd: >-
 							<div class="inner">
 								<header>
 									<h2>My Books</h2>
-									<p class="kalam variablesubhead">{{myBooks_subheading}}</p>
+									<p class="kalam variablesubhead">{{myBooks.myBooks_subheading}}</p>
 									
 								</header>
 								<!-- <p>I write kidlit for preschoolers to middle graders—from fiction to nonfiction—but, in all my
@@ -110,9 +73,9 @@ compilation of the life stories of several real people.
 										My WWII-themed work-in-progress is nonfiction for ages 8-12. It’s about two women who
 worked behind-the-scenes doing top secret work for America’s government during wartime.
 									</p> -->
-									{{myBooks_content_top | markdownify | safe}}
+									{{myBooks.myBooks_content_top | markdownify | safe}}
 								<h3 class="funderline"><em>Montana's Memory Day</em></h3>
-								 {{myBooks_content_mmd | markdownify | safe}}
+								 {{myBooks.myBooks_content_mmd | markdownify | safe}}
 								<!-- <h4>Illustration Style</h4>
 								<p>
 									<a data-fancybox="gallery" href="images/pic01.jpg"><img src="https://via.placeholder.com/150"></a>

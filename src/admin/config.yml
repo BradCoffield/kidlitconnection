@@ -79,16 +79,7 @@ collections:
           - { label: My Books Subheading, name: myBooks_subheading, widget: string }
           - { label: My Books Content Top, name: myBooks_content_top, widget: markdown }
           - { label: My Books Content MMD, name: myBooks_content_mmd, widget: markdown }
-      - label: "Site Content"
-        name: "Site Content"
-        file: "src/index.html"
-        fields:
-          - { label: Homepage Banner, name: homepage_banner, widget: image }
-          - { label: Homepage Subheading, name: subheading, widget: string }
-          - { label: My Books Banner, name: myBooks_banner, widget: image }
-          - { label: My Books Subheading, name: myBooks_subheading, widget: string }
-          - { label: My Books Content Top, name: myBooks_content_top, widget: markdown }
-          - { label: My Books Content MMD, name: myBooks_content_mmd, widget: markdown }    
+       
           
 
  
