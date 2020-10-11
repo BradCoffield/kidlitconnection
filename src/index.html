@@ -35,8 +35,8 @@
 								<img style="margin-bottom: 0px;" src="images/ew-instagram-logo-transparent-related-keywords-logo-instagram-vector-2017-115629178687gobkrzwak.png?nf_resize=fit&w=100" width="24" alt="">
 								<ul class="icons insta">
 									 
-									<li><!-- <a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a> --><a href="https://www.instagram.com/kidlitconnection/">@kidlitconnection</a></li>
-									<li><!-- <a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a> --><a href="https://www.instagram.com/scbwimontana/">@scbwimontana</a></li>
+									<li><a href="https://www.instagram.com/kidlitconnection/">@kidlitconnection</a></li>
+									<li><a href="https://www.instagram.com/scbwimontana/">@scbwimontana</a></li>
 										 
 								</ul>
 							 
@@ -57,7 +57,7 @@
 							</ul>
 							<div class="inner">
 								<header>
-									<h2>My Books</h2>
+									<h2>{{site.Page1_Title}}</h2>
 									<p class="kalam variablesubhead">{{myBooks.myBooks_subheading}}</p>
 									
 								</header>
@@ -93,7 +93,7 @@
 			</ul>
 			<div class="inner">
 				<header>
-					<h2>Kidlit Resources</h2>
+					<h2>{{site.Page2_Title}}</h2>
 					<p class="kalam variablesubhead">{{kidlitResources.klr_subheading}}</p>
 				</header>
 			 
@@ -143,7 +143,7 @@
 			</ul>
 			<div class="inner">
 				<header>
-					<h2>Books I Recommend</h2>
+					<h2>{{site.Page3_Title}}</h2>
 					<p class="kalam variablesubhead" style="margin-bottom: 4rem;">{{booksRec.booksRec_subheading}}</p>
 				</header>
  
@@ -190,7 +190,7 @@
 							</ul>
 							<div class="inner">
 								<header>
-									<h2>About Me</h2>
+									<h2>{{site.Page4_Title}}</h2>
 									<p class="kalam variablesubhead">{{aboutMe.aboutMe_subheading}}</p>
 								</header>
 								<p>
@@ -220,7 +220,7 @@
 				<!-- Contact section -->
 					<article id="contact" class="panel secondary">
 						<div class="image">
-							<img src="images/kidlitconnection_funforest_clip1.jpg?nf_resize=fit&w=750" alt="" data-position="center center" />
+							<img src="{{contact.contact_banner}}?nf_resize=fit&w=750" alt="" data-position="center center" />
 						</div>
 						<div class="content">
 							<ul class="actions animated spinX">
@@ -228,9 +228,9 @@
 							</ul>
 							<div class="inner">
 								<header>
-									<h2>Contact</h2>
+									<h2>{{site.Page5_Title}}</h2>
 								</header>
-								<p>I'd love to hear from you! Find me at <a href="https://www.instagram.com/kidlitconnection/">@kidlitconnection</a> on Instagram or please reach out through the form below. Thanks!</p> <br><br>
+								{{contact.contact_subheading | markdownify | safe}} <br><br>
 								 
 								<form name="contact" method="POST" data-netlify="true">
 									<p>

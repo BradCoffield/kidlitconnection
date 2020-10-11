@@ -134,7 +134,7 @@ collections:
         file: "src/_data/contact.json"
         fields:
           - { label: Contact Me Banner, name: contact_banner, widget: image }
-          - { label: Contact Me Subheading, name: contact_subheading, widget: string }   
+          - { label: Contact Me Subheading, name: contact_subheading, widget: markdown }   
       
        
           
