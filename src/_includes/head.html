@@ -10,6 +10,23 @@
     <!-- <link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet" />
   -->
   <script>
+      if (window.location.hash.match('access_token')) {
+    document.location.pathname = '/admin';
+  }
+  if (window.location.hash.match('invite_token')) {
+    document.location.pathname = '/admin';
+  }
+  if (window.location.hash.match('confirmation_token')) {
+    document.location.pathname = '/admin';
+  }
+  if (window.location.hash.match('email_change_token')) {
+    document.location.pathname = '/admin';
+  }
+  if (window.location.hash.match('recovery_token')) {
+    document.location.pathname = '/admin';
+  }
+    
+    
     if (window.netlifyIdentity) {
        console.log("netidentity hey")
       window.netlifyIdentity.on("init", user => {
