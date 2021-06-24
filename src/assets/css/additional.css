@@ -177,3 +177,16 @@ strong {font-weight: bold;}
 
 /* #87a1a2 */
 /* tealy1 */
+
+
+/* revisions June 2021 */
+.panel {
+  width: 100%;
+  max-width: 100%;
+}
+#wrapper {
+  padding: 0rem;
+}
+#footer {
+  margin: 2rem 0;
+}
