@@ -194,17 +194,17 @@
 									<h2>{{site.Page4_Title}}</h2>
 									<p class="kalam variablesubhead">{{aboutMe.aboutMe_subheading}}</p>
 								</header>
-								<p>
+								<p style="float:left;padding-right: 2rem;padding-bottom:.5rem;">
 									<img src="{{aboutMe.aboutMe_personalPhoto}}?nf_resize=fit&w=350" alt="" class="mw300"><br><span class="photo-credit">Photo credit: Halie Cardinal</span>
 									{{aboutMe.aboutMe_upperContent | markdownify |safe}}
 									<p class="gallery-wrap">
 										<!-- first image is the fullsize the second is the thumb -->
 										{% for item in aboutMe.aboutMe_gallery %}
-										<a data-fancybox="gallery" href="{{item.image}}?nf_resize=fit&w=750"><img src="{{item.image}}?nf_resize=fit&w=180" width="180"></a>
+										<a data-fancybox="gallery" href="{{item.image}}?nf_resize=fit&w=750"><img src="{{item.image}}?nf_resize=fit&w=380" height="320"></a>
 										{%endfor%}
 
 
-										 
+										<br><span class="photo-credit">Photo credits (L to R): Ty Nygard, Marina Eshelman, Ty Nygard</span>
 									</p>
 									{{aboutMe.aboutMe_lowerContent | markdownify |safe}}
 								<p style="text-align: center;margin-bottom: 5px;">You can follow my journeys on Instagram:
@@ -215,7 +215,7 @@
 									</ul>
 									 </p>
 							</div>
-							{%include colorlogo.html%}</div>
+						 </div>
 					</article>
 
 				<!-- Contact section -->
