@@ -191,3 +191,16 @@ strong {font-weight: bold;}
 #footer {
   margin: 2rem 0;
 }
+
+.little-lightbox {
+	box-shadow: 1px 1px 3px lightgray;
+	padding: 1rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+#home{
+  background-color: #88687f;
+}
