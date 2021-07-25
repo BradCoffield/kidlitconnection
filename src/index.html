@@ -5,7 +5,7 @@
 	<body class="is-preload-0 is-preload-1">
 
 		<!-- Wrapper -->
-			<div id="wrapper">
+			<div id="wrapper" style="min-height: 1vh;">
 
 				<!-- Home -->
 					<article id="home" class="panel special">
@@ -14,37 +14,63 @@
 							<img src="{{homepage.homepage_banner}}?nf_resize=fit&w=750" alt="" data-position="right center" />
 						</div> -->
 						<div class="content" style="width:100%;padding:0px;">
-							<div class="inner">
-								<header>
+							<div class="inner"  >
+							 
+								<header id="homepage-header-2">
+								
 									
 									<h1 >{{site.title}}</h1>
-									
-									<!-- <p  class="kalam variablesubhead">{{subheading}}
-										</p>  -->
-								</header>
-								<nav id="nav">
-									<ul class="actions stacked special animated spinY">
-										<li><a href="#montana-memory-day" class="button kalam">{{site.Page1_Title}}</a></li>
-										<li><a href="#kidlit-resources" class="button kalam">{{site.Page2_Title}}</a></li>
-										<!-- <li><a href="#recommended-books" class="button kalam">{{site.Page3_Title}}</a></li> -->
-										<li><a href="#my-story" class="button kalam">{{site.Page4_Title}}</a></li>
-										<li><a href="#contact" class="button kalam">{{site.Page5_Title}}</a></li>
-									</ul>
-								</nav>
-
-								<ul class="actions stacked special animated spinY">
-									<li><a href="#montana-memory-day" class="button kalam">BUY NOW!</a></li>
-									 
-								</ul>
-								
-								<img style="margin-bottom: 0px;" src="images/ew-instagram-logo-transparent-related-keywords-logo-instagram-vector-2017-115629178687gobkrzwak.png?nf_resize=fit&w=100" width="24" alt="">
-								<ul class="icons insta">
-									 
-									<li><a href="https://www.instagram.com/kidlitconnection/">@kidlitconnection</a></li>
-									<li><a href="https://www.instagram.com/montanaexplorer/">@montanaexplorer</a></li>
-									<li><a href="https://www.instagram.com/scbwimontana/">@scbwimontana</a></li>
+									<ul id="new-nav">
+										<li class="new-nav-li"><a href="#montana-memory-day" class=" kalam">{{site.Page1_Title}}</a></li>
+										<li class="new-nav-li"><a href="#kidlit-resources" class=" kalam">{{site.Page2_Title}}</a></li>
 										 
-								</ul>
+										<li class="new-nav-li"><a href="#my-story" class=" kalam">{{site.Page4_Title}}</a></li>
+										<li class="new-nav-li"><a href="#contact" class=" kalam">{{site.Page5_Title}}</a></li>
+									</ul>
+										<!-- <nav id="nav">
+											<ul class="actions stacked special animated spinY">
+												<li><a href="#montana-memory-day" class="button kalam">{{site.Page1_Title}}</a></li>
+												<li><a href="#kidlit-resources" class="button kalam">{{site.Page2_Title}}</a></li>
+												 
+												<li><a href="#my-story" class="button kalam">{{site.Page4_Title}}</a></li>
+												<li><a href="#contact" class="button kalam">{{site.Page5_Title}}</a></li>
+											</ul>
+										</nav> -->
+								</header>
+								
+<div>
+	<h3 style="margin-bottom: 10px;">Now available!</h3>	
+	<div style="max-width: 1000px;display: block;margin: 0 auto;">
+		<p class="content">The first children's book by Sue Lawrence!</p>
+		<img src="images/MontanasMemoryDay_webcover.jpg" alt="" width="350" class="little-lightbox" style="margin:10px">
+		<img src="images/MontanasMemoryDay_webcover- Back.jpg"  width="350" alt=""  class="little-lightbox" style="margin:10px">
+		
+		<p><!-- <span class="button kalam" style="margin:1rem">Learn More</span>  --> <span class="button kalam" style="margin:1rem;background:#60728f;font-size:18px;font-weight: bold;">Buy Now</span></p>
+	</div>
+	
+
+								 
+	<div>
+		<h3 style="margin-top: 3rem;">Connect With Me</h3>
+		<div style="display: flex;justify-content: center;">
+		<div style="margin:1rem">
+			<img style="margin-bottom: 0px;" src="images/ew-instagram-logo-transparent-related-keywords-logo-instagram-vector-2017-115629178687gobkrzwak.png?nf_resize=fit&w=100" width="24" alt="">
+			<ul class="icons insta">
+
+				<li><a href="https://www.instagram.com/kidlitconnection/">@kidlitconnection</a></li>
+				<li><a href="https://www.instagram.com/montanaexplorer/">@montanaexplorer</a></li>
+				<li><a href="https://www.instagram.com/scbwimontana/">@scbwimontana</a></li>
+
+			</ul>
+
+		</div>
+		
+		<div style="margin:1rem"><p class="content">Join my newsletter!</p><p class="content">Contact me directly</p></div>
+		<div style="margin:1rem"></div>
+		</div>
+									
+	</div>
+</div>
 							 
 							</div> 
 						</div>
@@ -267,8 +293,7 @@
 					</article>
 
 			
-
-			{%include footer.njk%}
+ 
 
 			</div>
 
