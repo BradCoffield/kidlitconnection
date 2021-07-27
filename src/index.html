@@ -8,81 +8,108 @@
 			<div id="wrapper" style="min-height: 1vh;">
 
 				<!-- Home -->
-					<article id="home" class="panel special">
-						<!-- <div class="image">
-							 
-							<img src="{{homepage.homepage_banner}}?nf_resize=fit&w=750" alt="" data-position="right center" />
-						</div> -->
+			 
+
+
+					  <article id="home" class="panel special">
+				 
 						<div class="content" style="width:100%;padding:0px;">
-							<div class="inner" style="background-color: #b9c9d2;" >
+							<div class="inner"    >
 							 
 								<header id="homepage-header-2">
 								
-									<div id="header-title"><h1 >{{site.title}}</h1><span class="kalam">The author website of Sue Lawrence</span></div>
+									<div id="header-title"><h1 >{{site.title}}</h1><span class="kalam">The author website of Sue Lawrence</span>
+										</div>
 									
-									<ul id="new-nav">
-										<li class="new-nav-li"><a href="#montana-memory-day" class=" kalam">{{site.Page1_Title}}</a></li>
+									<ul class="topnav" id="new-nav">
+										<a href="javascript:void(0);" class="icon pink-hover" onclick="myFunction()">MENU
+											<i class="fa fa-bars"></i>
+										  </a>
+										<li class="new-nav-li"><a href="/" class="  kalam  ">Home</a></li>
+										<li class="new-nav-li"><a href="#montana-memory-day" class=" kalam  ">{{site.Page1_Title}}</a></li>
 										<li class="new-nav-li"><a href="#kidlit-resources" class=" kalam">{{site.Page2_Title}}</a></li>
 										 
 										<li class="new-nav-li"><a href="#my-story" class=" kalam">{{site.Page4_Title}}</a></li>
 										<li class="new-nav-li"><a href="#contact" class=" kalam">{{site.Page5_Title}}</a></li>
+										<!-- <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">MENU
+											<i class="fa fa-bars"></i>
+										  </a></li> -->
 									</ul>
+
+<script>
+	/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("new-nav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+} 
+</script>
 										 
 								</header>
 								
 <div>
 	 
 	<div class="container">
-		<div class="row">
-		  <div class="col-6">
-			<!-- This content will take up 3/12 (or 1/4) of the container -->
-			<p class="content"><span style="font-size: 2rem;font-weight:bold;">Hi. I'm Sue.</span> I'm a kidlit creator from Billings, Montana. That's me on the right, standing with the illustrator of my new children's book <em>Montana's Memory Day</em>. Welcome to my site!</p>
+		<div class="row"> 
+		
+		  <div class="col-12">
+		 
+			<p class="content">	<div id="homepage-top-pic" ><img src="images/Illustrator, Erika Wilson Author, Sue Lawrence .jpg" alt=""  width="300"  ><br> <span class="photo-credit">Illustrator, Erika Wilson & Author, Sue Lawrence</span>  </div><span class="kalam" style="font-size: 2.4rem;font-weight:bold;">Hi. I'm Sue.</span> <br> I'm a kidlit creator in Billings, Montana. <br> <br><p>That's me on the right, standing with Erika Wilson, the illustrator of my new children's book <em>Montana's Memory Day</em>. <br><br> It's a nature-themed foster/adoption story, set on a Montana farm in the middle of winter. Available now direct from the publisher.</p>	 </p>
+			<span class="button content" id="buy-now-button"style="">Pre-order Now</span>
+			<div id="book-covers-angled">
+				<img src="images/MontanasMemoryDay_webcover.jpg" alt="" width="350"  id="front-cover-homepage">
+				<img src="images/MontanasMemoryDay_webcover- Back.jpg"  width="350" alt=""  class=" " id="back-cover-homepage"  >
+			</div>
 		  </div>
-		  <div class="col-3">
-			<div  ><img src="images/Illustrator, Erika Wilson Author, Sue Lawrence .jpg" alt="" width="400" class="little-lightbox2" ><br><span class="photo-credit">Illustrator, Erika Wilson & Author, Sue Lawrence</span></div>
-		  </div>
-	 
+		 
+		</div>
+		<div class="row" style="margin-top: 6rem;">
+			<div class="col-7">
+				<h3>"Kids lose themselves in books, they find themselves there too." --Lewis Keegan</h3>
+				<div  ><img src="images/KLC - children reading.jpeg" alt=""  style="max-width: 600px;" ><br><!-- <span class="photo-credit">"Kids lose themselves in books, they find themselves there too." --Lewis Keegan</span> --></div>
+			</div>
+			<div class="col-1">&nbsp;</div>
+			<div class="col-4">
+	<div class="sidebar">
+		
+					<h4 style="margin-top:3rem;display:block;background-color: #3d47c1;padding:2rem; margin-top: 0px;">Connect with me</h4>
+					<div >
+						<div style="margin:1rem">
+							<img style="margin-bottom: 0px;" src="images/ew-instagram-logo-transparent-related-keywords-logo-instagram-vector-2017-115629178687gobkrzwak.png?nf_resize=fit&w=100" width="24" alt=""> <h5>Instagram</h5>
+							<ul class="icons insta">
+		
+								<li><a href="https://www.instagram.com/kidlitconnection/">@kidlitconnection</a></li>
+								<li><a href="https://www.instagram.com/montanaexplorer/">@montanaexplorer</a></li>
+								<li><a href="https://www.instagram.com/scbwimontana/">@scbwimontana</a></li>
+		
+							</ul>
+		
+						</div>
+						<h5 >Newsletter</h5>
+						<p class="content">Sign up!</p>
+						   <h5>Contact Me</h5>
+		
+						   <p class="content">Send a message!</p>
+						</div>
+	</div>
+			  </div>
+		 
 		</div>
 	  </div>
-	<div style="max-width: 1200px;display: block;margin: 0 auto;">
-
-		
-		 
-		<img src="images/MontanasMemoryDay_webcover.jpg" alt="" width="350"  id="front-cover-homepage">
-		<img src="images/MontanasMemoryDay_webcover- Back.jpg"  width="350" alt=""  class=" " id="back-cover-homepage"  >
-		
-		<p>      <span class="button content" id="buy-now-button"style="">Pre-order Now</span></p>
-	</div>
+ 
 
 
-	<div  ><img src="https://via.placeholder.com/400x500" alt="" class="little-lightbox2" ><br><span class="photo-credit">"Kids lose themselves in books, they find themselves there too." --Lewis Keegan</span></div>
  
 								 
-	<div>
-		<h3 style="margin-top: 3rem;">Connect With Me</h3>
-		<div style="display: flex;justify-content: center;">
-		<div style="margin:1rem">
-			<img style="margin-bottom: 0px;" src="images/ew-instagram-logo-transparent-related-keywords-logo-instagram-vector-2017-115629178687gobkrzwak.png?nf_resize=fit&w=100" width="24" alt="">
-			<ul class="icons insta">
-
-				<li><a href="https://www.instagram.com/kidlitconnection/">@kidlitconnection</a></li>
-				<li><a href="https://www.instagram.com/montanaexplorer/">@montanaexplorer</a></li>
-				<li><a href="https://www.instagram.com/scbwimontana/">@scbwimontana</a></li>
-
-			</ul>
-
-		</div>
-		
-		<div style="margin:1rem"><p class="content">Join my newsletter!</p><p class="content">Contact me directly</p></div>
-		<div style="margin:1rem"></div>
-		</div>
-									
-	</div>
+ 
 </div>
 							 
 							</div> 
 						</div>
-					</article>
+					</article> 
 
 				<!-- My Books section -->
 					<article id="montana-memory-day" class="panel secondary">
@@ -104,21 +131,25 @@
 					 
 									<!-- {{myBooks.myBooks_content_top | markdownify | safe}} -->
 								<!-- <h3 class="funderline"><em>Montana's Memory Day</em></h3> -->
-							<p>
-								<div style="float: left;padding-right: 1rem;padding-bottom:1rem;"><img src="images/MMD-Front Cover.jpg" alt="" class="little-lightbox" ><br><span class="photo-credit">Montana's Memory Day, cover</span></div>
-									{{myBooks.myBooks_content_mmd | markdownify | safe}}
-							
+							<div class="group">
+								<p>
+									<div style="float: left;padding-right: 1rem;padding-bottom:1rem;"><img src="images/Erika & Sue--When work is like play!.jpg" width="350" alt="" class="little-lightbox" ><br><span class="photo-credit">Photo credit: Lydia Griffin</span></div>
+										{{myBooks.myBooks_content_mmd | markdownify | safe}}
 								
-							</p>
-						
-	 
+								
+								</p>
+								<p class="group"><div style="float:left; padding-right: 1rem;padding-bottom:1rem;"><img src="images/MMD-Front Cover.jpg" alt="" class="little-lightbox" width="250" ><br><span class="photo-credit">Montana's Memory Day, cover</span></div>
+									{{myBooks.myBooks_content_mmd_lower | markdownify | safe}}
+								</p>
+								
+							</div>
 							
-<h4>Behind the Scenes with the Illustrator!</h4>
-<div style=" padding-right: 1rem;padding-bottom:1rem;"><img src="images/Erika & Sue--When work is like play!.jpg" alt="" class="little-lightbox" ><br><span class="photo-credit">Erika Wilson and Sue Lawrence</span></div>
- <h5>Carved and Then Colored</h5>
+<h3 style="margin-top: 35px;">Behind the Scenes with the Illustrator:</h3>
+
+ <h4>Carved and Then Colored</h4>
 <img src="images/r_Spread 2 Carved and ready to print.png" alt="" width="400" class="little-lightbox" style="margin-right:2rem;">
 <img src="images/r_Spread 2 Linocut and watercolor print complete.jpg" alt="" width="400" class="little-lightbox">
-<h5 style="margin-top:2rem;">The Making of the Print</h5>
+<h4 style="margin-top:2rem;">The Making of the Print</h4>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vQjEPbA4qkc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   <!-- <a href="/illustrator-video/" style="text-decoration: none;border-bottom: 0px solid white;"><img src="images/Video_cover.png?nf_resize=fit&w=350" alt="" class=""></a> -->
@@ -243,7 +274,7 @@
 									<p class="kalam variablesubhead">{{aboutMe.aboutMe_subheading}}</p>
 								</header>
 								<p style="float:left;padding-right: 2rem;padding-bottom:.5rem;">
-									<img src="{{aboutMe.aboutMe_personalPhoto}}?nf_resize=fit&w=350" alt="" class="mw300 little-lightbox"><br><span class="photo-credit">Photo credit: Halie Cardinal</span>
+									<img src="{{aboutMe.aboutMe_personalPhoto}}?nf_resize=fit&w=350" alt="" class="  little-lightbox"><br><span class="photo-credit">Photo credit: Halie Cardinal</span>
 									{{aboutMe.aboutMe_upperContent | markdownify |safe}}
 									<p class="gallery-wrap">
 										<!-- first image is the fullsize the second is the thumb -->
