@@ -1,41 +1,54 @@
 <head>
-    <title>{{site.title}} | Sue Lawrence</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="/assets/css/main.css" />
-    <link rel="stylesheet" href="/assets/css/additional.css" />
-    <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
-    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Kalam&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">   
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-    <!-- <link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet" />
-  -->
+  <title>{{site.title}} | Sue Lawrence</title>
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, user-scalable=no"
+  />
+  <link rel="stylesheet" href="/assets/css/simple-grid.css">
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <link rel="stylesheet" href="/assets/css/additional.css" />
+  <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Kalam&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+  />
+  <!-- <link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet" />  -->
+  <!-- <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  /> -->
+
   <script>
-      if (window.location.hash.match('access_token')) {
-    document.location.pathname = '/admin';
-  }
-  if (window.location.hash.match('invite_token')) {
-    document.location.pathname = '/admin';
-  }
-  if (window.location.hash.match('confirmation_token')) {
-    document.location.pathname = '/admin';
-  }
-  if (window.location.hash.match('email_change_token')) {
-    document.location.pathname = '/admin';
-  }
-  if (window.location.hash.match('recovery_token')) {
-    document.location.pathname = '/admin';
-  }
-    
-    
+    if (window.location.hash.match("access_token")) {
+      document.location.pathname = "/admin";
+    }
+    if (window.location.hash.match("invite_token")) {
+      document.location.pathname = "/admin";
+    }
+    if (window.location.hash.match("confirmation_token")) {
+      document.location.pathname = "/admin";
+    }
+    if (window.location.hash.match("email_change_token")) {
+      document.location.pathname = "/admin";
+    }
+    if (window.location.hash.match("recovery_token")) {
+      document.location.pathname = "/admin";
+    }
+
     if (window.netlifyIdentity) {
-       console.log("netidentity hey")
-      window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-        document.location.href = "/admin/";
-        });
-      }
+      console.log("netidentity hey");
+      window.netlifyIdentity.on("init", (user) => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
       });
     }
-    </script>
+  </script>
 </head>

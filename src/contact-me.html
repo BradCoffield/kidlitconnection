@@ -1,0 +1,31 @@
+---
+layout: new_layout.njk
+---
+<article id="contact" class="text-left">
+   
+    <div class="content">
+      
+        <div class="inner">
+            <header>
+                <h2 class="text-center">{{site.Page5_Title}}</h2>
+            </header>
+            <span class="text-center content" style="font-size:18px">{{contact.contact_subheading | markdownify | safe}}</span> <br><br>
+             
+            <form name="contact" method="POST" data-netlify="true">
+                <p>
+                  <label>Name: <input type="text" name="name" /></label>   
+                </p>
+                <p>
+                  <label>Email: <input type="email" name="email" /></label>
+                </p>
+                 <p>
+                  <label>Message: <textarea name="message"></textarea></label>
+                </p>
+                <p>
+                  <button type="submit">Send</button>
+                </p>
+              </form>
+              
+        </div>
+        {%include colorlogo.html%}	</div>
+</article>

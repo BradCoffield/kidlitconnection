@@ -1,0 +1,35 @@
+---
+layout: new_layout.njk
+---
+<article id="my-story" class="text-left">
+  
+    <div class="content">
+    
+        <div class="inner">
+            <header>
+                <h2 class="text-center">{{site.Page4_Title}}</h2>
+                <p class="kalam variablesubhead">{{aboutMe.aboutMe_subheading}}</p>
+            </header>
+            <p style="float:left;padding-right: 2rem;padding-bottom:.5rem;">
+                <img src="{{aboutMe.aboutMe_personalPhoto}}?nf_resize=fit&w=350" alt="" class="  little-lightbox2"><br><span class="photo-credit">Photo credit: Halie Cardinal</span>
+                {{aboutMe.aboutMe_upperContent | markdownify |safe}}
+                <p class="gallery-wrap">
+                    <!-- first image is the fullsize the second is the thumb -->
+                    {% for item in aboutMe.aboutMe_gallery %}
+                    <a data-fancybox="gallery" href="{{item.image}}?nf_resize=fit&w=750"><img src="{{item.image}}?nf_resize=fit&w=380" height="320" class="little-lightbox2"></a>
+                    {%endfor%}
+
+
+                    <br><span class="photo-credit">Photo credits (L to R): Ty Nygard, Marina Eshelman, Ty Nygard</span>
+                </p>
+                {{aboutMe.aboutMe_lowerContent | markdownify |safe}}
+            <p style="text-align: center;margin-bottom: 5px;">You can follow my journeys on Instagram:
+                <ul style="list-style-type:none;text-align: center;margin-top:10px;">
+                    <li> <a href="https://www.instagram.com/kidlitconnection/">@kidlitconnection</a></li>
+                    <!-- <li> <a href="https://www.instagram.com/scbwimontana/">@scbwimontana</a></li> -->
+                    <li> <a href="https://www.instagram.com/montanaexplorer/">@montanaexplorer</a></li>
+                </ul>
+                 </p>
+        </div>
+        {%include colorlogo.html%} </div>
+</article>

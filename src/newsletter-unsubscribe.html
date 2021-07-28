@@ -1,0 +1,20 @@
+---
+layout: new_layout.njk
+title: Newsletter unsubscribe
+---
+<header>
+  <h2 class="text-center">Newsletter Unsubscribe</h2>
+</header>
+<p>Submit the email address you want removed from the list and I'll stop sending you emails. No worries!</p>
+<div style="text-align: left;margin-bottom: 10rem;">
+    
+    <form name="newsletter-unsubscribe" method="POST" data-netlify="true">
+        
+        <p>
+          <label>Subscribed Email: <input type="email" name="email" /></label>
+        </p>
+            <p>
+          <button type="submit">Unsubscribe</button>
+        </p>
+      </form>
+</div>
