@@ -21,32 +21,7 @@
 									<div id="header-title"><h1 >{{site.title}}</h1><span class="kalam">The author website of Sue Lawrence</span>
 										</div>
 									
-									<ul class="topnav" id="new-nav">
-										<a href="javascript:void(0);" class="icon pink-hover" onclick="myFunction()">MENU
-											<i class="fa fa-bars"></i>
-										  </a>
-										<li class="new-nav-li"><a href="/" class="  kalam  ">Home</a></li>
-										<li class="new-nav-li"><a href="#montana-memory-day" class=" kalam  ">{{site.Page1_Title}}</a></li>
-										<li class="new-nav-li"><a href="#kidlit-resources" class=" kalam">{{site.Page2_Title}}</a></li>
-										 
-										<li class="new-nav-li"><a href="#my-story" class=" kalam">{{site.Page4_Title}}</a></li>
-										<li class="new-nav-li"><a href="#contact" class=" kalam">{{site.Page5_Title}}</a></li>
-										<!-- <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">MENU
-											<i class="fa fa-bars"></i>
-										  </a></li> -->
-									</ul>
-
-<script>
-	/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-  var x = document.getElementById("new-nav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-} 
-</script>
+									 {%include nav.html%}
 										 
 								</header>
 								
@@ -69,7 +44,7 @@ function myFunction() {
 		<div class="row" style="margin-top: 6rem;">
 			<div class="col-7">
 				<h3>"Kids lose themselves in books, they find themselves there too." --Lewis Keegan</h3>
-				<div  ><img src="images/KLC - children reading.jpeg" alt=""  style="max-width: 600px;" ><br><!-- <span class="photo-credit">"Kids lose themselves in books, they find themselves there too." --Lewis Keegan</span> --></div>
+				<div  ><img src="images/KLC - children reading.jpeg" alt=""  style="max-width: 600px;width:100%" ><br><!-- <span class="photo-credit">"Kids lose themselves in books, they find themselves there too." --Lewis Keegan</span> --></div>
 			</div>
 			<div class="col-1">&nbsp;</div>
 			<div class="col-4">
