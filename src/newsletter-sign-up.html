@@ -1,16 +1,18 @@
 ---
-layout: simple_layout.njk
+layout: new_layout.njk
 title: Kidlit Connection Newsletter
 ---
- 
-<p>Please sign up for my newsletter! I'll send the occasional email about my writing and also information for kidlit authors!</p><p> You can always <a href="/newsletter-opt-out">unsubscribe.</a>
+<header>
+  <h2 class="text-center">Newsletter Sign-Up</h2>
+</header>
+<p>Please sign up for my newsletter! I'll send the occasional email about my writing and also information for kidlit authors!</p><p> You can always <a href="/newsletter-unsubscribe/">unsubscribe.</a>
 I'll never sell your information and will only use it to send you newsletters.</p>
 
 
 
-<div style="max-width:500px;margin:0 auto;display:block">
+<div >
     
-    <form name="newsletter-sign-up" method="POST" data-netlify="true">
+    <form name="newsletter-sign-up" method="POST" data-netlify="true" style="text-align:left">
         <p>
           <label>First Name: <input type="text" name="firstName" /></label>
         </p> 
