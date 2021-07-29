@@ -10,8 +10,8 @@ layout: new_layout.njk
                 <h2 class="text-center">{{site.Page4_Title}}</h2>
                 <p class="kalam variablesubhead">{{aboutMe.aboutMe_subheading}}</p>
             </header>
-            <p style="float:left;padding-right: 2rem;padding-bottom:.5rem;">
-                <img src="{{aboutMe.aboutMe_personalPhoto}}?nf_resize=fit&w=350" alt="" class="  little-lightbox2"><br><span class="photo-credit">Photo credit: Halie Cardinal</span>
+            <p id="my-story-top"  >
+                <img id="about-me-pic" src="{{aboutMe.aboutMe_personalPhoto}}?nf_resize=fit&w=350" alt="" class="  little-lightbox2"><br><span class="photo-credit">Photo credit: Halie Cardinal</span>
                 {{aboutMe.aboutMe_upperContent | markdownify |safe}}
                 <p class="gallery-wrap">
                     <!-- first image is the fullsize the second is the thumb -->
