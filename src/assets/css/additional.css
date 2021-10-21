@@ -408,3 +408,20 @@ h5 {
   padding-right: 2rem;
   padding-bottom: 0.5rem;
 }
+
+
+	#purchaseBox{
+			border: 1px solid gray;
+		
+		}
+    #purchaseBox h2 {
+      font-size: 18px;text-transform: uppercase;
+    }
+    #purchaseBox p {
+      font-size: 14px;
+    }
+    #purchaseBox ul {
+      list-style-type: none;
+    }
+       #purchaseBox ul li {
+      display: inline;}
