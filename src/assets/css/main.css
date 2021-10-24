@@ -1,4 +1,4 @@
-@import url(font-awesome.min.css);
+/* import url(font-awesome.min.css); */
 @import url("https://fonts.googleapis.com/css?family=Raleway|Montserrat:700");
 
 /*
@@ -1575,3 +1575,5 @@ input, select, textarea {
 		body.is-preload-0 #footer {
 			opacity: 0;
 		}
+
+	
