@@ -10,13 +10,13 @@ layout: new_layout.njk
         <!-- <p class="kalam variablesubhead">{{kidlitResources.klr_subheading}}</p> -->
       </header>
 
-      <p>Eiusmod nulla ex consequat excepteur ullamco duis elit anim Lorem ipsum id incididunt fugiat et. Do labore mollit ex elit id nisi officia et quis. Anim ea fugiat mollit sint voluptate anim fugiat ullamco esse eiusmod elit cillum non adipisicing. Quis elit occaecat veniam nostrud dolore excepteur anim ad minim nostrud. Est reprehenderit officia esse incididunt officia mollit quis tempor sit labore nisi cillum ut cupidatat.</p>
-      <p>Click an image for a full-size version, description, and photo credit.</p>
+      <p>After a 2 & 1/2 year process, my "Montana Hope" finally happened! My illustrator, Erika Wilson, and I were invited to Rocky Mountain College's Billings' campus to participate in their Reading Series event on October 14, 2021. That night was a milestone for me--not only was it my first author event for my debut picture book, Montana's Memory Day, but it was held in my alma mater's Prescott Hall great room! I used to set up the chairs and tables for those Reading Series events as a work/study student. Now, I was one of the invited author presenters with a microphone in hand! The irony of that scenario was invigorating! And, it felt comforting to be back on campus, surrounded by Rocky friends and supporters of my newly-attained career as a published Montana author!</p>
+      <p>Click a photo to view full-size and for the description and photo credit.</p>
 
       <p class="gallery-wrap">
         <!-- first image is the fullsize the second is the thumb -->
         {% for item in myBooks.readingAtRmcGallery %}
-        <a data-fancybox="gallery" href="{{item.image}}?nf_resize=fit&w=750"
+        <a data-fancybox="gallery" href="{{item.image}}?nf_resize=fit&w=750" data-caption="{{item.description}} Photo credit: {{item.photoCredit}}"
           ><img
             src="{{item.image}}?nf_resize=fit&w=380"
             height="320"
@@ -24,7 +24,7 @@ layout: new_layout.njk
         /></a>
         {%endfor%}
 
-        <!-- <br><span class="photo-credit">Photo credits (L to R): Ty Nygard, Marina Eshelman, Ty Nygard</span> -->
+        
       </p>
     </div>
   </div>

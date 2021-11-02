@@ -1,112 +1,91 @@
 <!DOCTYPE HTML>
- 
+
 <html>
- {%include head.html%}
-	<body class="is-preload-0 is-preload-1">
+{%include head.html%}
 
-		<!-- Wrapper -->
-			<div id="wrapper" style="min-height: 1vh;">
+<body class="is-preload-0 is-preload-1">
 
-				<!-- Home -->
-			 
+	<!-- Wrapper -->
+	<div id="wrapper" style="min-height: 1vh;">
 
+		<!-- Home -->
+		<article id="home" class="panel special">
 
-					  <article id="home" class="panel special">
-				 
-						<div class="content" style="width:100%;padding:0px;">
-							<div class="inner"    >
+			<div class="content" style="width:100%;padding:0px;">
+				<div class="inner">
+
+					<header id="homepage-header-2">
+
+						<div id="header-title">
+							<h1>{{site.title}}</h1><span class="kalam">The author website of Sue Lawrence</span>
+						</div>
+
+						{%include nav.html%}
+
+					</header>
+
+					<div>
+
+						<div class="container"  >
+							{%include topHomepageAnnouncement.html %}
+									<div class="row" style="margin-top: 3rem;" >
+								 
+												<div class="col-6">
+													<p class="content">
+												<span class="kalam"
+														style="font-size: 2.2rem;font-weight:bold;">Hi. I'm Sue.</span> <br> I'm
+													a kidlit creator in Billings, Montana. <br>  
+													<p>That's me on the right, standing with Erika Wilson, the illustrator of my
+														new children's book: <em class="bold">Montana's Memory Day</em>.
+													  It's a nature-themed foster/adoption story, set on a Montana
+														farm in the middle of winter.   </p>
+														
+							
+											 			{%include connectWithMe.html%}
+								 
+												</div>
+												<div class="col-6">	<div id="homepage-top-pic">
+														
+											 
+														
+													  <img class="little-lightbox2"
+															src="images/Illustrator, Erika Wilson Author, Sue Lawrence .jpg"
+															alt="" width="450" style="max-width: 95%;">
+												 
+														</div></div>
+											</div>
 							 
-								<header id="homepage-header-2">
-								
-									<div id="header-title"><h1 >{{site.title}}</h1><span class="kalam">The author website of Sue Lawrence</span>
-										</div>
-									
-									 {%include nav.html%}
-										 
-								</header>
-								
-<div>
-	 
-	<div class="container">
-		<div class="row"> 
-		
-		  <div class="col-12">
-		
-			
-	 <div id="book-covers-angled2">
-				<img src="images/MontanasMemoryDay_webcover.jpg" alt=""    id="front-cover-homepage2">
-				<!-- <img src="images/MontanasMemoryDay_webcover- Back.jpg"  width="350" alt=""  class=" " id="back-cover-homepage"  > -->
-			</div>  
 
-
-			  {%include purchaseBox.html%}
-		 <div class="row">
-			 <div class="col-8">		<p class="content">	<div id="homepage-top-pic" ><img src="images/Illustrator, Erika Wilson Author, Sue Lawrence .jpg" alt=""  width="250"  >    </div><span class="kalam" style="font-size: 2.4rem;font-weight:bold;">Hi. I'm Sue.</span> <br> I'm a kidlit creator in Billings, Montana. <br> <br><p>That's me on the right, standing with Erika Wilson, the illustrator of my new children's book: <br> <em class="bold">Montana's Memory Day</em>. <br><br> It's a nature-themed foster/adoption story, set on a Montana farm in the middle of winter. <br><br> </p>	 </p></div>
-			 <div class="col-4">hi</div>
-		 </div>
-	
-			 
-		 <!-- <div id="book-covers-angled">
+									<!-- <div id="book-covers-angled">
 				<img src="images/MontanasMemoryDay_webcover.jpg" alt="" width="350"  id="front-cover-homepage">
 				<img src="images/MontanasMemoryDay_webcover- Back.jpg"  width="350" alt=""  class=" " id="back-cover-homepage"  >
 			</div>   -->
-		  </div>
-		 
-		</div>
-		<div class="row" style="margin-top: 6rem;">
-			<div class="col-7">
-				<h3>"Kids lose themselves in books, they find themselves there too." <br>--Lewis Keegan</h3>
-				<div  ><img src="images/KLC - children reading.jpeg" alt=""  style="max-width: 600px;width:100%" ><br><!-- <span class="photo-credit">"Kids lose themselves in books, they find themselves there too." --Lewis Keegan</span> --></div>
-			</div>
-			<div class="col-1">&nbsp;</div>
-			<div class="col-4">
-	<div class="sidebar">
-		
-					<h4 style="margin-top:3rem;display:block;background-color: #3d47c1;padding:2rem; margin-top: 0px;text-shadow: 0px 0px 15px #f8eddf;">Connect with me</h4>
-					<div >
-						<div style="margin:1rem">
-							<img style="margin-bottom: 0px;" src="images/ew-instagram-logo-transparent-related-keywords-logo-instagram-vector-2017-115629178687gobkrzwak.png?nf_resize=fit&w=100" width="24" alt=""> <h5>Instagram</h5>
-							<ul class="icons insta">
-		
-								<li><a href="https://www.instagram.com/kidlitconnection/">@kidlitconnection</a></li>
-								<li><a href="https://www.instagram.com/montanaexplorer/">@montanaexplorer</a></li>
-								<li><a href="https://www.instagram.com/scbwimontana/">@scbwimontana</a></li>
-		
-							</ul>
-		
-						</div>
-						<h5 >Kidlit Connection News You Can Use!</h5>
-						<p class="content"><a href="/newsletter-sign-up/">Email sign up</a></p>
+								
 
-						   <h5>Contact Me</h5>
-		
-						   <p class="content pink-hover"><a href="/contact-me/">Send a message!</a></p>
+							
+		{%include kidsPicQuote.html%}
 						</div>
+
+
+
+
+
+
+					</div>
+
+				</div>
+			</div>
+		</article>
+
+		{%include footer.njk%}
+
+
+
 	</div>
-			  </div>
-		 
-		</div>
-	  </div>
- 
 
 
- 
-								 
- 
-</div>
-							 
-							</div> 
-						</div>
-					</article> 
+	{%include scripts.html%}
 
-			 {%include footer.njk%}
-			
- 
+</body>
 
-			</div>
-
-			
-			{%include scripts.html%}
-
-	</body>
 </html>
