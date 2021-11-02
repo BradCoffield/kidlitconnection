@@ -307,11 +307,27 @@ h5 {
   position: relative;
   z-index: 1000;
 }
+#front-cover-homepage2 {
+  transform: rotate(-8deg);
+  position: relative;
+  z-index: 1000;
+  width: 300px;
+  max-width: 100%;
+}
 
 #book-covers-angled {
+  /* margin-top: 10rem;  */
+  padding: 1.3rem;
+  border-radius: 50%;
+  background-image: url("../../images/wood1\ michael-oeser-V5nGhxuovig-unsplash.jpg");
+  box-shadow: 2px 2px 4px #333;
+  max-width: 420px;
+}
+#book-covers-angled2 {
   margin-top: 10rem;
   padding: 4.3rem;
   border-radius: 50%;
+  max-width: 470px;
   background-image: url("../../images/wood1\ michael-oeser-V5nGhxuovig-unsplash.jpg");
   box-shadow: 2px 2px 4px #333;
 }
@@ -429,3 +445,14 @@ h5 {
       form {padding: 35px;
 box-shadow: 0px 0px 5px #777;
 border-radius: 5px;}
+
+
+@media only screen and (min-width: 60em){.container {
+    width: 85%!important;
+    max-width: 74rem!important;
+}}
+
+/* @media only screen and (min-width: 60em) {.container {
+ width: 85%;
+    max-width: 76 rem;
+}} */

@@ -1,0 +1,31 @@
+---
+layout: new_layout.njk
+---
+
+<article id="reading-at-rmc" class="text-left">
+  <div class="content">
+    <div class="inner">
+      <header>
+        <h2 class="text-center">Reading MMD at Rocky Mountain College</h2>
+        <!-- <p class="kalam variablesubhead">{{kidlitResources.klr_subheading}}</p> -->
+      </header>
+
+      <p>Eiusmod nulla ex consequat excepteur ullamco duis elit anim Lorem ipsum id incididunt fugiat et. Do labore mollit ex elit id nisi officia et quis. Anim ea fugiat mollit sint voluptate anim fugiat ullamco esse eiusmod elit cillum non adipisicing. Quis elit occaecat veniam nostrud dolore excepteur anim ad minim nostrud. Est reprehenderit officia esse incididunt officia mollit quis tempor sit labore nisi cillum ut cupidatat.</p>
+      <p>Click an image for a full-size version, description, and photo credit.</p>
+
+      <p class="gallery-wrap">
+        <!-- first image is the fullsize the second is the thumb -->
+        {% for item in myBooks.readingAtRmcGallery %}
+        <a data-fancybox="gallery" href="{{item.image}}?nf_resize=fit&w=750"
+          ><img
+            src="{{item.image}}?nf_resize=fit&w=380"
+            height="320"
+            class="little-lightbox2"
+        /></a>
+        {%endfor%}
+
+        <!-- <br><span class="photo-credit">Photo credits (L to R): Ty Nygard, Marina Eshelman, Ty Nygard</span> -->
+      </p>
+    </div>
+  </div>
+</article>
