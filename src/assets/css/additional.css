@@ -486,6 +486,19 @@ button.fancybox-button:focus {
   border-radius: 5px;
   box-shadow: 2px 2px 1px #999;
   padding: 1rem;
+  background-color: hsla(331.1, 49.1%, 66.9%, .5);
+  margin: .5rem;
+}
+.callout2 {
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px #999;
+  /* padding: 1rem; */
+  padding: .5rem 0px;
+  background-color: hsla(331.1, 49.1%, 66.9%, .3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: .5rem; */
 }
 
 #kirkusQuote {
@@ -499,6 +512,7 @@ button.fancybox-button:focus {
 #purchaseBox {
   border: 0px solid gray;
   background-color: hsla(235.5, 52%, 49.8%, .4);
+  font-size: 14px;
 }
 #purchaseBox h2 {
   font-size: 18px;
@@ -556,3 +570,5 @@ margin-top:5px
 	border-radius: 15px;
 	box-shadow: 2px 4px 30px #777;
 }
+
+#purchaseCalloutNarrow ul li {display: inline;}
