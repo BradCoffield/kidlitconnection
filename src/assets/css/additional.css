@@ -322,7 +322,7 @@ h5 {
 	margin: 0.5rem 0rem 1rem;
 	/* border-radius: 15px; */
 	box-shadow: 2px 4px 30px #777;
-   border: 7px solid transparent;
+   border: 3px solid transparent;
   /* padding: 15px; */
   border-image: url("../../images/wood1\ michael-oeser-V5nGhxuovig-unsplash.jpg") 30 round;
  
@@ -490,7 +490,8 @@ button.fancybox-button:focus {
   border-radius: 5px;
   box-shadow: 2px 2px 5px #999;
   padding: 1rem;
-  background-color: hsla(331.1, 49.1%, 66.9%, .5);
+  /* background-color: hsla(331.1, 49.1%, 66.9%, .5); */
+  background-color: hsla(235.5, 52%, 49.8%, .3);
   margin: .5rem;
 }
 .callout2 {
@@ -546,6 +547,13 @@ button.fancybox-button:focus {
   align-items: center;
   /* justify-content: center;  */
 }
+.getFlexed3 {
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  /* justify-content: center;  */
+  font-size: 12px;
+}
 .getFlexed2 {
   display: flex;
   flex-wrap: wrap;
@@ -563,7 +571,8 @@ margin-top:5px
 
 }
 .insta a {border: none;}
-.insta button {width:75%;display:block;margin:10px auto;text-align: left;}
+.insta button {width:95%;display:block;margin:10px auto;text-align: left;box-shadow:0 0 2px 0px #333;font-weight: normal;}
+.insta button:hover, .insta button:focus  {box-shadow:0 0 5px #3d47c1;}
 #connectWithMe{
   margin-top: .5rem;
 }
@@ -576,7 +585,10 @@ margin-top:5px
 	margin: 0.5rem 0rem 1rem;
 	border-radius: 15px;
 	box-shadow: 2px 4px 30px #777;
+    border: 3px solid transparent;
+  /* padding: 15px; */
+  border-image: url("../../images/wood1\ michael-oeser-V5nGhxuovig-unsplash.jpg") 30 round;
 }
 
 #purchaseCalloutNarrow ul li {display: inline;}
-#purchaseCalloutNarrow {font-size: 14px;}
+#purchaseCalloutNarrow {font-size: 14px;background-color: hsla(235.5, 52%, 49.8%, .5);padding: 15px 0}
