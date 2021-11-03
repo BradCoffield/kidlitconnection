@@ -320,8 +320,12 @@ h5 {
 	background-color: rgba(231, 231, 231, .81);
 	padding: 2rem;
 	margin: 0.5rem 0rem 1rem;
-	border-radius: 15px;
+	/* border-radius: 15px; */
 	box-shadow: 2px 4px 30px #777;
+   border: 7px solid transparent;
+  /* padding: 15px; */
+  border-image: url("../../images/wood1\ michael-oeser-V5nGhxuovig-unsplash.jpg") 30 round;
+ 
 }
 .homepage-callout {
 padding: 1rem;
@@ -484,7 +488,7 @@ button.fancybox-button:focus {
 
 .callout {
   border-radius: 5px;
-  box-shadow: 2px 2px 1px #999;
+  box-shadow: 2px 2px 5px #999;
   padding: 1rem;
   background-color: hsla(331.1, 49.1%, 66.9%, .5);
   margin: .5rem;
@@ -502,7 +506,8 @@ button.fancybox-button:focus {
 }
 
 #kirkusQuote {
-  background-color: hsla(331.1, 49.1%, 66.9%, .5);
+  background-color: hsla(13.6, 20.4%, 42.4%, .8);
+  /* background-color: hsla(331.1, 49.1%, 66.9%, .5); */
 
   font-size: 16px;
   /* text-shadow: 1px 1px 1px #444; */
@@ -511,8 +516,10 @@ button.fancybox-button:focus {
 }
 #purchaseBox {
   border: 0px solid gray;
-  background-color: hsla(235.5, 52%, 49.8%, .4);
+  background-color: hsla(321.2, 13.4%, 50.2%, .8);
+  /* background-color: hsla(235.5, 52%, 49.8%, .4); */
   font-size: 14px;
+  margin: 0 0 1rem;
 }
 #purchaseBox h2 {
   font-size: 18px;
@@ -572,3 +579,4 @@ margin-top:5px
 }
 
 #purchaseCalloutNarrow ul li {display: inline;}
+#purchaseCalloutNarrow {font-size: 14px;}
