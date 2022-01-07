@@ -476,6 +476,14 @@ form {
   border-radius: 3px;
 }
 
+.little-lightbox4{
+    box-shadow: 1px 1px 3px #333;
+  margin: 0.5rem 2rem;
+  /* padding: 5px; */
+ 
+  border-radius: 3px;
+}
+
 .fancybox-navigation .fancybox-button {
   /* background-clip: content-box;
     height: 100px;
