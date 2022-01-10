@@ -518,7 +518,7 @@ button.fancybox-button:focus {
   /* margin: .5rem; */
 }
 
-#kirkusQuote a:hover, #kirkusQuote a:focus, #purchaseBox a:hover, #purchaseBox a:focus {color:rgb(228, 224, 224)}
+#kirkusQuote a:hover, #kirkusQuote a:focus, #purchaseBox a:hover, #purchaseBox a:focus, .lighter-hover:hover, .lighter-hover:focus {color:rgb(228, 224, 224)}
 
 #kirkusQuote {
   background-color: hsla(13.6, 20.4%, 42.4%, .8);
