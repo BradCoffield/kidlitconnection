@@ -343,7 +343,7 @@ padding: 1rem;
 }
 
 #book-covers-angled2 {
-  /* margin-top: 2rem; */
+  margin-top: 1rem;
   padding: 3rem;
   border-radius: 50%;
   max-width: 430px;
@@ -608,3 +608,16 @@ margin-top:5px
 
 #purchaseCalloutNarrow ul li {display: inline;}
 #purchaseCalloutNarrow {font-size: 14px;background-color: hsla(235.5, 52%, 49.8%, .5);padding: 15px 0}
+
+#photo-galleries-list li {list-style-type: square;margin-left:10px;}
+#photo-galleries-list {text-align: left;}
+
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}

@@ -12,7 +12,11 @@ layout: new_layout.njk
 
         <div class="group">
             <p>
-                <div style="float: left;padding-right: 1rem;padding-bottom:1rem;"><img src="/images/Erika & Sue--When work is like play!.jpg" width="350" alt="" class="little-lightbox2" ><br><span class="photo-credit">Photo credit: Lydia Griffin</span> <div class="callout" style="max-width: 340px;font-size:14px;text-align:center"><a href="/reading-at-rmc/">Pictures from my reading at Rocky Mountain College!</a></div></div>
+                <div style="float: left;padding-right: 1rem;padding-bottom:1rem;"><img src="/images/Erika & Sue--When work is like play!.jpg" width="350" alt="" class="little-lightbox2" ><br>  
+                    
+                {%include photoGalleries.html%}
+                
+                </div>
                     {{myBooks.myBooks_content_mmd | markdownify | safe}}
             
             
@@ -22,7 +26,7 @@ layout: new_layout.njk
             </p>
             
         </div>
-        
+        {%include benTidwellVideo.html%}
 <h3 style="margin-top: 35px;">Behind the Scenes with the Illustrator:</h3>
 
 <h4>Carved and Then Colored</h4>
