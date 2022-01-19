@@ -483,6 +483,13 @@ form {
  
   border-radius: 3px;
 }
+.little-lightbox4a{
+    box-shadow: 1px 1px 3px #333;
+  margin: 0.5rem 1rem;
+  /* padding: 5px; */
+ 
+  border-radius: 3px;
+}
 
 .fancybox-navigation .fancybox-button {
   /* background-clip: content-box;
@@ -607,7 +614,7 @@ margin-top:5px
 }
 
 #purchaseCalloutNarrow ul li {display: inline;}
-#purchaseCalloutNarrow {font-size: 14px;background-color: hsla(235.5, 52%, 49.8%, .5);padding: 15px 0}
+#purchaseCalloutNarrow {font-size: 14px;background-color: hsla(235.5, 52%, 49.8%, .5);padding: 15px}
 
 #photo-galleries-list li {list-style-type: square;margin-left:10px;}
 #photo-galleries-list {text-align: left;}
@@ -620,4 +627,8 @@ margin-top:5px
 
 .cf:after {
   clear: both;
+}
+
+.fancybox-button {
+  background: #d3bc8c!important;
 }

@@ -1,4 +1,19 @@
 {
   "contact_banner": "/images/uploads/kidlitconnection_whiteforest_2.jpg",
-  "contact_subheading": "I'd love to hear from you!\n\nFind me at [@kidlitconnection](https://www.instagram.com/kidlitconnection/) or [@montanaexplorer](https://www.instagram.com/montanaexplorer/) on Instagram or please reach out through the form below."
+  "contact_subheading": "I'd love to hear from you!\n\nFind me at [@kidlitconnection](https://www.instagram.com/kidlitconnection/) or [@montanaexplorer](https://www.instagram.com/montanaexplorer/) on Instagram or please reach out through the form below.",
+  "gallery": [
+    {
+      "image": "/images/uploads/MMD in snow..jpg"
+    },
+    {
+      "image": "/images/uploads/MMD-American dipper & magpie.jpg"
+    },
+    {
+      "image": "/images/MontanasMemoryDay_webcover- Back.jpg"
+    
+    },
+    {
+      "image": "/images/uploads/Kirkus Reviews paid ad in their 12-15-2021 magazine  issue.jpg"
+    }
+  ]
 }
