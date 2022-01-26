@@ -316,7 +316,7 @@ h5 {
   max-width: 420px;
 }
 
-#top-homepage {
+#top-homepage, #whwmmd-showcase {
 	/* background-color: rgba(231, 231, 231, .81); */
 	padding: 2rem;
 	margin: 0.5rem 0rem 1rem;
@@ -632,3 +632,5 @@ margin-top:5px
 .fancybox-button {
   background: #d3bc8c!important;
 }
+
+.bold {font-weight: bold;}
