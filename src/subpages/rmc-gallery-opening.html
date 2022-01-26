@@ -8,17 +8,26 @@ permalink: rmc-gallery-opening/
   <div class="content">
     <div class="inner">
       <header>
-        <h2 class="text-center">Behind the Scenes with the Illustrator</em></h2>
+        <h2 class="text-center">Erika Wilson's RMC Gallery Opening</em></h2>
         <!-- <p class="kalam variablesubhead">{{kidlitResources.klr_subheading}}</p> -->
       </header>
  
+   <p>Description goes here... Nisi aliqua minim aliqua anim ut culpa. Incididunt officia sunt cillum do adipisicing ipsum in Lorem laboris duis culpa. Ea cillum veniam cupidatat occaecat in id eiusmod adipisicing enim. Aliqua commodo in proident amet qui nostrud voluptate et fugiat.</p>
+      <p>Click a photo to view full-size and for the description.</p>
 
-<h4>Carved and Then Colored</h4>
-<img src="/images/r_Spread 2 Carved and ready to print.png" alt="" width="400" class="little-lightbox2" style="margin-right:2rem;">
-<img src="/images/r_Spread 2 Linocut and watercolor print complete.jpg" alt="" width="400" class="little-lightbox2">
-<h4 style="margin-top:2rem;">The Making of the Print</h4>
-<iframe width="760" height="515" src="https://www.youtube.com/embed/vQjEPbA4qkc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   
+      <p class="gallery-wrap">
+        <!-- first image is the fullsize the second is the thumb -->
+        {% for item in myBooks.erikaRmcGallery  %}
+        <a data-fancybox="gallery" href="{{item.image}}?nf_resize=fit&w=750" data-caption="{{item.description}} "
+          ><img
+            src="{{item.image}}?nf_resize=fit&w=380"
+            height="320"
+            class="little-lightbox2"
+        /></a>
+        {%endfor%}
+
+        
+      </p>
    
     </div>
   </div>
