@@ -138,5 +138,17 @@
       "description": "Rocky Mountain College's Art Gallery inside Tech Hall.",
       "photoCredit": ""
     }
+  ],
+  "moonbeamGallery": [
+    {
+      "image": "/images/uploads/awards-honors/Moonbeam1.jpg",
+      "description": "Moonbeam Children's Book Awards--Bronze Medal for Best First Book--Picture Book.",
+      "photoCredit": ""
+    },
+      {
+        "image": "/images/uploads/awards-honors/Moonbeam2.jpg",
+        "description": "Moonbeam Children's Book Awards--Certificate.",
+        "photoCredit": ""
+      }
   ]
 }

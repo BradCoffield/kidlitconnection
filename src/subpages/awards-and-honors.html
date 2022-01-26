@@ -8,9 +8,30 @@ permalink: awards-and-honors/
     <div class="inner">
       <header>
         <h2 class="text-center">Awards and Honors</h2>
-      <p>content</p>
-      </header>
+        </header>
+ <p>I'm happy to share that <em>Montana's Memory Day</em> has been the recipient of various awards and honors. Details below.</p>
+   
+ <h3>Kirkus Reviews</h3>
+ <p><em>Montana's Memory Day</em> was one of <em>Kirkus Review</em>'s Top 100 "Best of" Indie books of 2021! It had originally received a starred review before being selected for this additional honor.</p>
+      <p class="gallery-wrap">
+                    <!-- first image is the fullsize the second is the thumb -->
+                    {% for item in homepage.kirkus_gallery %}
+                    <a data-fancybox="gallery" href="{{item.image}}?nf_resize=fit&w=750"><img src="{{item.image}}?nf_resize=fit&w=380" height="320" class="little-lightbox4"></a>
+                    {%endfor%}
 
+ 
+                </p>
+
+  <h3>Moonbeam Children's Book Awards</h3>
+  <p>MMD recieved the Bronze Medal for "Best First Book--Picture Book." <a href="https://moonbeamawards.com/98/2021-winners-temp-5" target="_blank">Details here!</a></p>
+      <p class="gallery-wrap">
+                    <!-- first image is the fullsize the second is the thumb -->
+                    {% for item in myBooks.moonbeamGallery %}
+                    <a data-fancybox="gallery" href="{{item.image}}?nf_resize=fit&w=750"><img src="{{item.image}}?nf_resize=fit&w=380" height="320" class="little-lightbox4"></a>
+                    {%endfor%}
+
+ 
+                </p>
       
     </div>
   </div>
