@@ -1,4 +1,15 @@
 {
   "subheading": "A website by Sue Lawrence, kidlit author and enthusiast",
-  "homepage_banner": "/images/uploads/kidlitconnection_funforest.jpg"
+  "homepage_banner": "/images/uploads/kidlitconnection_funforest.jpg",
+  "kirkus_gallery": [
+    {
+      "image": "/images/uploads/Kirkus Reviews Best of 2021 Indie--12-15-2021 magazine front cover.JPG"
+    },
+    {
+      "image": "/images/uploads/Kirkus Reviews paid ad in their 12-15-2021 magazine  issue.jpg"
+    },
+    {
+      "image": "/images/uploads/Kirkus Reviews starred review of MMD--Best of 2021.PNG"
+    }
+  ]
 }

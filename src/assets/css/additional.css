@@ -316,8 +316,8 @@ h5 {
   max-width: 420px;
 }
 
-#top-homepage {
-	background-color: rgba(231, 231, 231, .81);
+#top-homepage, #whwmmd-showcase {
+	/* background-color: rgba(231, 231, 231, .81); */
 	padding: 2rem;
 	margin: 0.5rem 0rem 1rem;
 	/* border-radius: 15px; */
@@ -343,7 +343,7 @@ padding: 1rem;
 }
 
 #book-covers-angled2 {
-  /* margin-top: 2rem; */
+  margin-top: 1rem;
   padding: 3rem;
   border-radius: 50%;
   max-width: 430px;
@@ -476,6 +476,21 @@ form {
   border-radius: 3px;
 }
 
+.little-lightbox4{
+    box-shadow: 1px 1px 3px #333;
+  margin: 0.5rem 2rem;
+  /* padding: 5px; */
+ 
+  border-radius: 3px;
+}
+.little-lightbox4a{
+    box-shadow: 1px 1px 3px #333;
+  margin: 0.5rem 1rem;
+  /* padding: 5px; */
+ 
+  border-radius: 3px;
+}
+
 .fancybox-navigation .fancybox-button {
   /* background-clip: content-box;
     height: 100px;
@@ -510,6 +525,8 @@ button.fancybox-button:focus {
   /* margin: .5rem; */
 }
 
+#kirkusQuote a:hover, #kirkusQuote a:focus, #purchaseBox a:hover, #purchaseBox a:focus, .lighter-hover:hover, .lighter-hover:focus {color:rgb(228, 224, 224)}
+
 #kirkusQuote {
   background-color: hsla(13.6, 20.4%, 42.4%, .8);
   /* background-color: hsla(331.1, 49.1%, 66.9%, .5); */
@@ -517,6 +534,7 @@ button.fancybox-button:focus {
   font-size: 16px;
   /* text-shadow: 1px 1px 1px #444; */
   margin: 0 0 1rem;
+  font-weight: bold;
 
 }
 #purchaseBox {
@@ -525,6 +543,7 @@ button.fancybox-button:focus {
   /* background-color: hsla(235.5, 52%, 49.8%, .4); */
   font-size: 14px;
   margin: 0 0 1rem;
+  font-weight: bold;
 }
 #purchaseBox h2 {
   font-size: 18px;
@@ -595,4 +614,23 @@ margin-top:5px
 }
 
 #purchaseCalloutNarrow ul li {display: inline;}
-#purchaseCalloutNarrow {font-size: 14px;background-color: hsla(235.5, 52%, 49.8%, .5);padding: 15px 0}
+#purchaseCalloutNarrow {font-size: 14px;background-color: hsla(235.5, 52%, 49.8%, .5);padding: 15px}
+
+#photo-galleries-list li {list-style-type: square;margin-left:10px;}
+#photo-galleries-list {text-align: left;}
+
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.fancybox-button {
+  background: #d3bc8c!important;
+}
+
+.bold {font-weight: bold;}

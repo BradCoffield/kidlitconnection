@@ -8,28 +8,33 @@ layout: new_layout.njk
             <header>
                 <h2 class="text-center">{{site.Page1_Title}}</h2>
             </header>
-            {%include purchaseCalloutNarrow.html%}
+            <!-- {%include purchaseCalloutNarrow.html%} -->
 
         <div class="group">
             <p>
-                <div style="float: left;padding-right: 1rem;padding-bottom:1rem;"><img src="/images/Erika & Sue--When work is like play!.jpg" width="350" alt="" class="little-lightbox2" ><br><span class="photo-credit">Photo credit: Lydia Griffin</span> <div class="callout" style="max-width: 340px;font-size:14px;text-align:center"><a href="/reading-at-rmc/">Pictures from my reading at Rocky Mountain College!</a></div></div>
+                <div style="float: left;padding-right: 1rem;padding-bottom:1rem;max-width:95%;"><img src="/images/Erika & Sue--When work is like play!.jpg" width="400" alt="" style="max-width:98%" class="little-lightbox2" ><br>  
+                    
+                {%include photoGalleries.html%}
+                
+                </div>
                     {{myBooks.myBooks_content_mmd | markdownify | safe}}
             
             
             </p>
-            <p class="group"><div style="float:left; padding-right: 1rem;padding-bottom:1rem;"><img src="/images/MMD-Front Cover.jpg" alt="" class="little-lightbox2" width="250" ></div>
+            <p class="group"><div style=" margin:inherit auto;display:block; padding-right: 1rem;padding-bottom:1rem;"> <p class="gallery-wrap">
+                    <!-- first image is the fullsize the second is the thumb -->
+                    {% for item in contact.gallery %}
+                    <a data-fancybox="gallery" href="{{item.image}}?nf_resize=fit&w=750"><img src="{{item.image}}?nf_resize=fit&w=300" width="220" class="little-lightbox4a"></a>
+                    {%endfor%}
+
+
+                    <br><span class="photo-credit">click to enlarge</span>
+                </p></div>
                 {{myBooks.myBooks_content_mmd_lower | markdownify | safe}}
             </p>
             
         </div>
-        
-<h3 style="margin-top: 35px;">Behind the Scenes with the Illustrator:</h3>
-
-<h4>Carved and Then Colored</h4>
-<img src="/images/r_Spread 2 Carved and ready to print.png" alt="" width="400" class="little-lightbox2" style="margin-right:2rem;">
-<img src="/images/r_Spread 2 Linocut and watercolor print complete.jpg" alt="" width="400" class="little-lightbox2">
-<h4 style="margin-top:2rem;">The Making of the Print</h4>
-<iframe width="760" height="515" src="https://www.youtube.com/embed/vQjEPbA4qkc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
 
 <!-- <a href="/illustrator-video/" style="text-decoration: none;border-bottom: 0px solid white;"><img src="images/Video_cover.png?nf_resize=fit&w=350" alt="" class=""></a> -->
 <!-- <br><a href="/illustrator-video">Watch a video of the illustrator working!</a> -->

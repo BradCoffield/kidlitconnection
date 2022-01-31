@@ -76,5 +76,91 @@
       "description": "Two painted page spreads from Montana's Memory Day.",
       "photoCredit": "Precious McKenzie"
     }
+  ],
+  "erikaRmcGallery": [
+    {
+      "image": "/images/uploads/rmc-gallery-opening/RMG-1.JPG",
+      "description": "Illustrating Montana's Memory Day--Erika Wilson of The Windy Mill Press.",
+      "photoCredit": ""
+    },
+    {
+      "image": "/images/uploads/rmc-gallery-opening/RMG-2.jpg",
+      "description": "Illustrating Montana's Memory Day--Erika Wilson of The Windy Mill Press.",
+      "photoCredit": ""
+    },
+    {
+      "image": "/images/uploads/rmc-gallery-opening/RMG-3.jpg",
+      "description": "Illustrating Montana's Memory Day--Erika Wilson of The Windy Mill Press.",
+      "photoCredit": ""
+    },
+    {
+      "image": "/images/uploads/rmc-gallery-opening/RMG-4.jpg",
+      "description": "Illustrating Montana's Memory Day--Erika Wilson of The Windy Mill Press.",
+      "photoCredit": ""
+    },
+    {
+      "image": "/images/uploads/rmc-gallery-opening/RMG-5.jpg",
+      "description": "Illustrating Montana's Memory Day--Erika Wilson of The Windy Mill Press.",
+      "photoCredit": ""
+    },
+    {
+      "image": "/images/uploads/rmc-gallery-opening/RMG-6.jpg",
+      "description": "Erika Wilson will teach a PRINTMAKING art course at Rocky in the Spring of 2023.",
+      "photoCredit": ""
+    },
+    {
+      "image": "/images/uploads/rmc-gallery-opening/RMG-7.jpg",
+      "description": "Gallery Director, Todd Forsgren, and Mika Forsgren talking with Erika Wilson.",
+      "photoCredit": ""
+    },
+    {
+      "image": "/images/uploads/rmc-gallery-opening/RMG-8.jpg",
+      "description": "Todd Forsgren, Gallery Director, with Erika's parents. A Rocky freshman art student, Quinn, reading MMD.",
+      "photoCredit": ""
+    },
+    {
+      "image": "/images/uploads/rmc-gallery-opening/RMG-9.jpg",
+      "description": "Erika showing everyone her illustrations while I read Montana's Memory Day.",
+      "photoCredit": ""
+    },
+    {
+      "image": "/images/uploads/rmc-gallery-opening/RMG-10.jpg",
+      "description": "Erika and Sue talking with Mika Forsgren (the gallery director's wife).",
+      "photoCredit": ""
+    },
+    {
+      "image": "/images/uploads/rmc-gallery-opening/RMG-11.jpg",
+      "description": "Erika Wilson with her #1 fan, her Mom, Cathy Williams, and Erika_s son, Hank.",
+      "photoCredit": ""
+    },
+    {
+      "image": "/images/uploads/rmc-gallery-opening/RMG-12.jpg",
+      "description": "Rocky Mountain College's Art Gallery inside Tech Hall.",
+      "photoCredit": ""
+    }
+  ],
+  "moonbeamGallery": [
+    {
+      "image": "/images/uploads/awards-honors/Moonbeam1.jpg",
+      "description": "Moonbeam Children's Book Awards--Bronze Medal for Best First Book--Picture Book.",
+      "photoCredit": ""
+    },
+      {
+        "image": "/images/uploads/awards-honors/Moonbeam2.jpg",
+        "description": "Moonbeam Children's Book Awards--Certificate.",
+        "photoCredit": ""
+      }
+  ],
+  "royalDragonflyGallery": [
+    {
+      "image": "/images/uploads/awards-honors/Royal Dragonfly Book Awards Winner Logo.png",
+      "description": "Royal Dragonfly Book Awards Winner logo.",
+      "photoCredit": ""
+    },
+    {
+      "image": "/images/uploads/awards-honors/Royal Dragonfly Book Awards-2 HMs.jpg",
+      "description": "Me, excited :)",
+      "photoCredit": ""
+    }
   ]
 }

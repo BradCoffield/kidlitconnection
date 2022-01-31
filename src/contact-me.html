@@ -10,7 +10,7 @@ layout: new_layout.njk
                 <h2 class="text-center">{{site.Page5_Title}}</h2>
             </header>
             <span class="text-center content" style="font-size:18px">{{contact.contact_subheading | markdownify | safe}}</span> <br><br>
-             
+               
             <form name="contact" method="POST" data-netlify="true" style="">
                 <p>
                   <label>Name: <input type="text" name="name" /></label>   
@@ -25,6 +25,16 @@ layout: new_layout.njk
                   <button type="submit">Send</button>
                 </p>
               </form>
+
+              <p class="gallery-wrap">
+                    <!-- first image is the fullsize the second is the thumb -->
+                    {% for item in contact.gallery %}
+                    <a data-fancybox="gallery" href="{{item.image}}?nf_resize=fit&w=750"><img src="{{item.image}}?nf_resize=fit&w=300" width="220" class="little-lightbox4a"></a>
+                    {%endfor%}
+
+
+                    <br><span class="photo-credit">click to enlarge</span>
+                </p>
               
         </div>
         {%include colorlogo.html%}	</div>

@@ -1,0 +1,34 @@
+---
+layout: new_layout.njk
+permalink: rmc-gallery-opening/
+---
+
+
+<article id="reading-at-rmc" class="text-left">
+  <div class="content"> 
+    <div class="inner">
+      <header>
+        <h2 class="text-center">Erika Wilson's RMC Gallery Opening</em></h2>
+        <!-- <p class="kalam variablesubhead">{{kidlitResources.klr_subheading}}</p> -->
+      </header>
+ 
+   <p>Please enjoy viewing Erika's “Illustrating Montana's Memory Day” Exhibit's Opening Reception at Rocky's Ryniker-Morrison Gallery in Tech Hall, held on Friday, January 14, 2022. The Gallery's Director is Todd Forsgren. Erika will be teaching a Printmaking course at the College in the Spring of 2023, with in-studio classes held in her Windy Mill Press printing shop across the street from Tech Hall.</p>
+      <p>Click a photo to view full-size and for the description.</p>
+
+      <p class="gallery-wrap">
+        <!-- first image is the fullsize the second is the thumb -->
+        {% for item in myBooks.erikaRmcGallery  %}
+        <a data-fancybox="gallery" href="{{item.image}}?nf_resize=fit&w=750" data-caption="{{item.description}} "
+          ><img
+            src="{{item.image}}?nf_resize=fit&w=380"
+            height="320"
+            class="little-lightbox2"
+        /></a>
+        {%endfor%}
+
+        
+      </p>
+   
+    </div>
+  </div>
+</article>
