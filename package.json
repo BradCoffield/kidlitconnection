@@ -2,7 +2,7 @@
   "name": "kidlitconnection",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  
   "scripts": {
     "build": "npm-run-all build:css build:html",
     "build:css": "node-sass src/assets/sass/main.scss > src/assets/css/main.css",
